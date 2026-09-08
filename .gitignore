@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+.source_archives/
+source_materials/input/
+source_materials/original_documents/
+text_locator_recheck.json

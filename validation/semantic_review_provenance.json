@@ -1,0 +1,96 @@
+{
+  "AI_assistance": "Codex (OpenAI) assisted with English projection, increment assembly, scripts, and structural checks. Substantive AI-assistance provenance remains disclosed.",
+  "author_reported_confirmation": {
+    "actual_adjudicated_case_count": null,
+    "clinical_reviewers": [
+      "Xiaonan Yang",
+      "Weixin Wang"
+    ],
+    "covered_material": "Supplied-draft field labels, assessment states, function attribution, rationales, and source locators",
+    "interrater_agreement_estimated": false,
+    "paired_independent_initial_ratings_available": false,
+    "reported_confirmation_date": "2026-09-08",
+    "reported_procedure": "Discussion between the two reviewers. Unresolved disagreements were to be referred to Zuoliang Qi.",
+    "review_date_basis": "Author-supplied confirmation date; not individual reading or signing timestamps",
+    "supplied_draft_authorizations": 1524,
+    "supplied_draft_field_positions": 9144
+  },
+  "confirmation_basis_id": "HC-20260908-002",
+  "confirmation_input_version": "REVIEW-20260908-v3",
+  "date_basis_id": "DATE-20260908-003",
+  "independent_dual_review_established": false,
+  "inputs": [
+    {
+      "bytes": 900609,
+      "input_role": "confirmation_records",
+      "sha256": "a758543cfe8ba1f00b0d3b8b65af34b6c4017f01c143d0b5cf93897487b82131"
+    },
+    {
+      "bytes": 15305262,
+      "input_role": "confirmation_fields",
+      "sha256": "3cb99bf2195ee0b2ad6534c80f0d74add392848255ac672112a4660f3ec336b6"
+    },
+    {
+      "bytes": 6090,
+      "input_role": "change_log",
+      "sha256": "a254afff777a123722bf3ee4fd8bd7b537258fb2733a9d9f7bf6d881f899ffc3"
+    },
+    {
+      "bytes": 1790,
+      "input_role": "review_source_log",
+      "sha256": "7b582cb31cac7476e9b6c28e20c4a96c3431067fc45e0f7a9b316ec3a712b387"
+    },
+    {
+      "bytes": 2000,
+      "input_role": "confirmation_statement",
+      "sha256": "d4a3fed9622b08e06153c576b28ba334b17997371efdcbb92b5719a3ed984784"
+    },
+    {
+      "bytes": 1906,
+      "input_role": "confirmation_date_statement",
+      "sha256": "944110c7a89403412fdd6246be0b4a03d52f6cfe42c788c7ccfc9418020efdb7"
+    }
+  ],
+  "integration_date": "2026-09-08",
+  "personal_signature_artifacts_supplied": 0,
+  "preserved_data_file_sha256": {
+    "associated_source_relationships.csv": "311cfcdcf8194c4ab0e754930c05f58caf9e06522d94ee0cbe3aed30a00e79a0",
+    "evidence_links.csv": "c107629c52554a6f6e20d2d2e3061523fcc05579e6189a987cdc7bc957a303a1",
+    "regulatory_identifier_aliases.csv": "f27c7dae3d5e7ed0886c5ca186e2f3e5020ef81d5a460bdbd7ba56b52d5302fd",
+    "source_bridges.csv": "ba249003621253807db456e35ba9209f120f451ca2c6669e2dbc7496896957f6",
+    "source_records.csv": "ff46748657b1c35a7358f9bff23e1a07eb2df270896b10b4e993af5d5c4f242f",
+    "vocabulary.csv": "14dfbf0f298a48e7c84cc6dcb5a50b2ab19351541e575f9b61a1e7ca3fa42374"
+  },
+  "private_materials_redistributed": false,
+  "public_review_layer": {
+    "context_only_review_sources": 1,
+    "field_cited_review_sources": 5,
+    "new_exact_machine_anchors_claimed": 0,
+    "new_pdf_capture_hashes_claimed": 0,
+    "retained_text_artifacts_supplied_and_hash_checked": 3,
+    "review_source_references": 6,
+    "targeted_field_review_records": 12
+  },
+  "release_version": "1.1",
+  "semantic_accuracy_estimated": false,
+  "version_reconciliation": {
+    "cumulative_changed_authorizations": 4,
+    "cumulative_changed_cells": 16,
+    "existing_source_amendment_cells_preserved": 8,
+    "existing_source_amendment_subjects": [
+      "K182513",
+      "K233662"
+    ],
+    "historical_baseline_authorization_scopes_matched": 1524,
+    "historical_baseline_field_keys_matched": 9144,
+    "interpretation": "Confirmation concerns the supplied historical draft and two targeted decisions. Prior source amendments in the current release remain separately versioned; their reversal was not inferred from the older supplied baseline.",
+    "new_confirmed_amendment_cells": 8,
+    "new_confirmed_field_cells": 7,
+    "new_confirmed_scope_cells": 1,
+    "new_confirmed_subjects": [
+      "K182034",
+      "K190013"
+    ],
+    "supplied_draft_matches_release_historical_baseline": true
+  }
+}

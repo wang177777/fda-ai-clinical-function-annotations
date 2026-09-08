@@ -1,0 +1,31 @@
+{
+  "additional_source_capture_records": 0,
+  "anchor_purposes": {
+    "INTERMEDIATE_SOURCE_CHAIN_BRIDGE": 24,
+    "SUBJECT_SOURCE_ADDITIONAL_DETAIL": 6,
+    "SUBJECT_TO_ASSOCIATED_SOURCE_BRIDGE": 115
+  },
+  "annotation_labels_changed": 0,
+  "file_name": "cross_authorization_review.csv",
+  "method": "AI-assisted source-relationship review and exact-text location; not independent human semantic validation",
+  "old_URLs_or_quotations_replaced": 0,
+  "public_long_quotations_copied": 0,
+  "reviewed_annotation_records": 65,
+  "sha256": "3f2f1af72a3ce6a0d0bb8464ef560e0b166c123ac85ca9f735aeead06042b062",
+  "source_relationships": {
+    "CURRENT_FEATURE_LIST_WITH_MODIFIED_AI_MODULES": 3,
+    "EXPLICIT_AI_FEATURE_CONTINUITY_WITH_EXCLUSIONS": 3,
+    "EXPLICIT_AI_FEATURE_MIGRATION": 4,
+    "EXPLICIT_FEATURE_CARRYOVER": 6,
+    "EXPLICIT_FEATURE_TRANSFER": 2,
+    "EXPLICIT_INTEGRATION_OUTSIDE_CURRENT_SUBMISSION_SCOPE": 10,
+    "EXPLICIT_ML_CONTINUITY": 4,
+    "EXPLICIT_MULTI_HOP_ML_CONTINUITY": 8,
+    "EXPLICIT_NAMED_AI_FEATURE_ADOPTION": 4,
+    "EXPLICIT_NAMED_FEATURE_REUSE": 3,
+    "EXPLICIT_RETAINED_FEATURES_AND_ADDED_APPLICATIONS": 2,
+    "GENERAL_FIRMWARE_CONTINUITY_FEATURE_NOT_RESTATED": 4,
+    "GENERAL_PERFORMANCE_CONTINUITY_FEATURE_NOT_RESTATED": 2,
+    "GENERAL_SOFTWARE_CONTINUITY_FEATURE_NOT_RESTATED": 10
+  }
+}

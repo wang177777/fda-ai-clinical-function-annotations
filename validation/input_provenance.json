@@ -1,0 +1,32 @@
+{
+  "inputs": [
+    {
+      "bytes": 909882,
+      "file_name": "authorization_taxonomy_1524.csv",
+      "sha256": "4a70cc00b903c948405a3d9bb9b1b593cb63b455e0905662c3b8aa44311a58a7"
+    },
+    {
+      "bytes": 12730570,
+      "file_name": "field_taxonomy_9144.csv",
+      "sha256": "89154f7f437bca8cdeffc5782db7209afb2d8fa7cc79b98cb29c9137e8840ac8"
+    },
+    {
+      "bytes": 2795872,
+      "file_name": "source_manifest.csv",
+      "sha256": "30f27e9fb1e46fc103d0d03687b6dcb11ad8e6ce5fec00abdd7e6fafccea2b22"
+    },
+    {
+      "bytes": 7404,
+      "file_name": "taxonomy_rules_en.md",
+      "sha256": "68de83c20bbd6ce14b02d332a923e8cad98e20824a24da8ea870f9d0a8a6cb1d"
+    }
+  ],
+  "license_status": "AUTHOR_PERMISSION_AND_REPOSITORY_DEPOSIT_PENDING",
+  "long_quotations_redistributed": false,
+  "provenance_stage": "Historical initial normalization assembled 2026-09-07. All flags, including licensing and source distribution, refer only to that stage; current licensing and distribution are in release_1_3_provenance.json.",
+  "semantic_labels_modified": false,
+  "source_caches_redistributed": false,
+  "source_release": "CAP_Article_three_figure_reviewed_release_2026-09-07",
+  "subsequent_semantic_amendment_provenance": "validation/semantic_review_provenance.json",
+  "subsequent_release_provenance": "validation/release_1_3_provenance.json"
+}

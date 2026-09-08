@@ -1,0 +1,44 @@
+{
+  "resource_version": "1.3.0",
+  "captures": [
+    {
+      "review_source_id": "R20260908-S04",
+      "requested_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf16/k162532.pdf",
+      "capture_date": "2026-09-08",
+      "http_status": 200,
+      "bytes": 792685,
+      "sha256": "b290fd993f0aa8709f58366595d9810477c84b28acf3ae0b8e7eb0babf8354a5",
+      "physical_pages": 13,
+      "capture_basis": "NEW_RELEASE_PREPARATION_CAPTURE; original review-date byte fingerprint was not supplied",
+      "classification_changes": 0,
+      "path": "source_materials/input/review_reference_captures/R20260908-S04.pdf"
+    },
+    {
+      "review_source_id": "R20260908-S05",
+      "requested_url": "https://www.accessdata.fda.gov/cdrh_docs/pdf16/K162225.pdf?download=1",
+      "capture_date": "2026-09-08",
+      "http_status": 200,
+      "bytes": 298916,
+      "sha256": "fdd47fe32d056807f3646804f4f3b1d07b40d431ebbe138162a6f4d768907d4a",
+      "physical_pages": 12,
+      "capture_basis": "NEW_RELEASE_PREPARATION_CAPTURE; original review-date byte fingerprint was not supplied",
+      "classification_changes": 0,
+      "path": "source_materials/input/review_reference_captures/R20260908-S05.pdf"
+    },
+    {
+      "review_source_id": "R20260908-S06",
+      "requested_url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/K150817.pdf?download=1",
+      "capture_date": "2026-09-08",
+      "http_status": 200,
+      "bytes": 226471,
+      "sha256": "f65b0ec3cb67594258f350814e92859e065532e9b215b0ed104afb28a691cc24",
+      "physical_pages": 13,
+      "capture_basis": "NEW_RELEASE_PREPARATION_CAPTURE; original review-date byte fingerprint was not supplied",
+      "classification_changes": 0,
+      "path": "source_materials/input/review_reference_captures/R20260908-S06.pdf"
+    }
+  ],
+  "historical_review_records_preserved": true,
+  "annotation_changes": 0,
+  "scope": "New captures for release access, not retrospective fingerprints or new machine spans for the September 8 expert review."
+}

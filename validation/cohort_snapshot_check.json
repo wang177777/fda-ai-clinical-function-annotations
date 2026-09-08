@@ -1,0 +1,51 @@
+{
+  "artifact_fingerprint_syntax_checks": 3,
+  "artifact_manifest_rows": 3,
+  "check_mode": "PUBLIC_MAPPING_PLUS_RETAINED_CSV_BYTES_AND_SIX_COLUMNS",
+  "company_whitespace_normalization_subjects": [
+    "DEN220024",
+    "DEN230027"
+  ],
+  "interpretation": "Public mapping checks test keys, row numbering and manifest syntax. Original-byte and six-column comparisons require the retained CSV. Recorded access dates are historical provenance, not a newly authenticated retrieval time.",
+  "matched_original_metadata_cells": 9144,
+  "matched_values_by_original_column": {
+    "Company": 1524,
+    "Date of Final Decision": 1524,
+    "Device": 1524,
+    "Panel (Lead)": 1524,
+    "Primary Product Code": 1524,
+    "Submission Number": 1524
+  },
+  "matching_current_authorization_keys": 1524,
+  "network_download_performed": false,
+  "normalizations": {
+    "Company": "Python str.strip(): leading/trailing whitespace only",
+    "Date of Final Decision": "MM/DD/YYYY converted to ISO YYYY-MM-DD",
+    "all_other_columns": "Exact string comparison"
+  },
+  "observed_original_csv_bytes": 132922,
+  "observed_original_csv_sha256": "4da0d15a1dcc7b6a7d45364f243e85aa4407ba3b63b6922a16fdbf96fea0d41d",
+  "original_csv_metadata_comparison": "PASS",
+  "original_csv_rows": 1524,
+  "original_row_numbers_complete_and_unique": true,
+  "public_input_sha256": {
+    "authorizations.csv": "c89ef4395c40c0491e80d4017305fb16cf0f602efd93d9eb32a7f1c23233243a",
+    "cohort_snapshot_manifest.csv": "5fafce063479c960fd9448dac63ea57be8643c2053430e8bfd13efca4eb6e339",
+    "cohort_snapshot_membership.csv": "e61b8ef0070ea5235c3accdcbf38fc9063aa9cfdbea8da5b968ff1f8daf40554"
+  },
+  "public_membership_rows": 1524,
+  "raw_artifact_bytes_checked_in_this_run": [
+    "COHORT_20260629_CSV"
+  ],
+  "recorded_access_date": "2026-06-29",
+  "reported_metadata_match_status_counts": {
+    "MATCH_AFTER_DATE_AND_COMPANY_TRIM": 2,
+    "MATCH_AFTER_DATE_NORMALIZATION": 1522
+  },
+  "snapshot_id": "FDA_AI_LIST_2026-06-29",
+  "status": "PASS",
+  "unexamined_original_artifacts_in_this_run": [
+    "COHORT_20260629_XLSX",
+    "COHORT_20260629_METADATA"
+  ]
+}

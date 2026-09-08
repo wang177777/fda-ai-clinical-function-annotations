@@ -1,0 +1,24 @@
+{
+  "ambiguous_multilabel_specific_notes_left_blank": 583,
+  "current_OTHER_memberships": 789,
+  "description": "Retained single-OTHER field reasons and explicit OTHER fragments only. Codex assisted with English translation of 78 existing Chinese notes; no separate expert validation of the new English wording is claimed. No meanings are inferred for the 583 unseparated multilabel contexts.",
+  "explicit_fragments_verified_in_original_reasons": 206,
+  "input_hash_verified": true,
+  "label_changes": 0,
+  "language_processing": {
+    "AI_ASSISTED_ENGLISH_TRANSLATION": 78,
+    "NO_OTHER_SPECIFIC_NOTE_ADDED": 583,
+    "RETAINED_ENGLISH_OR_LATIN_TEXT": 128
+  },
+  "nonempty_specific_notes": 206,
+  "prepared_date": "2026-09-08",
+  "release_version": "1.2",
+  "retained_input_rows": 9144,
+  "retained_input_sha256": "89154f7f437bca8cdeffc5782db7209afb2d8fa7cc79b98cb29c9137e8840ac8",
+  "status_counts": {
+    "EXPLICIT_OTHER_ASSIGNMENT_IN_RETAINED_REASON": 8,
+    "MULTILABEL_OTHER_ATTRIBUTION_NOT_ISOLATED": 583,
+    "SINGLE_OTHER_EXISTING_FIELD_REASON": 198
+  },
+  "translation_input_sha256": "f898807f8ea4ab2baec72e9f9083d12958082d4acd2fa70a22ee88234a9c52ae"
+}

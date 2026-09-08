@@ -1,0 +1,41 @@
+{
+  "release_version": "1.3.0",
+  "prepared_date": "2026-09-08",
+  "previous_version": "1.2",
+  "annotation_changes": 0,
+  "cohort_membership_changes": 0,
+  "metadata_changes": "Three cohort manifest distribution_status cells now identify distributed originals.",
+  "preserved_v1_2_data_file_sha256": {
+    "associated_source_relationships.csv": "311cfcdcf8194c4ab0e754930c05f58caf9e06522d94ee0cbe3aed30a00e79a0",
+    "authorizations.csv": "c89ef4395c40c0491e80d4017305fb16cf0f602efd93d9eb32a7f1c23233243a",
+    "cohort_snapshot_membership.csv": "e61b8ef0070ea5235c3accdcbf38fc9063aa9cfdbea8da5b968ff1f8daf40554",
+    "evidence_links.csv": "c107629c52554a6f6e20d2d2e3061523fcc05579e6189a987cdc7bc957a303a1",
+    "field_annotations.csv": "e9531c9395937ab248638f7d9a4dd154fd7696f572304becd132b0c93508a9b8",
+    "other_label_notes.csv": "5871811e9af12a754864118c523335072922aff7097b3823f82182b9541dcc84",
+    "positive_labels.csv": "adf6af729ee0045ac32256af2a7475c6218e0933ff97d426012297c1feaa61ab",
+    "regulatory_identifier_aliases.csv": "f27c7dae3d5e7ed0886c5ca186e2f3e5020ef81d5a460bdbd7ba56b52d5302fd",
+    "semantic_review_records.csv": "b9177ff32dd5f414d0b4ec1d97d05381c4d8281946802e3c1b23a5d00d1fa65c",
+    "semantic_review_sources.csv": "323d573d24196d25c6d4dbb1fad54ae502acd462aa46c252250f50e9ac1615c7",
+    "source_bridges.csv": "ba249003621253807db456e35ba9209f120f451ca2c6669e2dbc7496896957f6",
+    "source_records.csv": "ff46748657b1c35a7358f9bff23e1a07eb2df270896b10b4e993af5d5c4f242f",
+    "version_changes.csv": "0a8491c98b157c2da241cbe683c188963ba3fb58d75327104dfe0117fcaead95",
+    "vocabulary.csv": "14dfbf0f298a48e7c84cc6dcb5a50b2ab19351541e575f9b61a1e7ca3fa42374"
+  },
+  "raw_documents": 3109,
+  "portable_text_files": 3121,
+  "source_archive_count": 6,
+  "input_archive_files": 3166,
+  "additional_release_reference_PDF_captures": 3,
+  "source_manifests": [
+    "source_materials/archives.json",
+    "source_materials/original_document_manifest.json",
+    "source_materials/input_manifest.json",
+    "source_materials/review_reference_captures.json"
+  ],
+  "reconstruction_comparison": "validation/public_reconstruction_check.json",
+  "license_data": "CC-BY-4.0",
+  "license_code": "MIT",
+  "repository": "https://github.com/wang177777/fda-ai-clinical-function-annotations",
+  "version_url": "https://github.com/wang177777/fda-ai-clinical-function-annotations/releases/tag/v1.3.0",
+  "DOI": null
+}

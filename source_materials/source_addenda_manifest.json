@@ -1,0 +1,279 @@
+{
+  "files": [
+    {
+      "path": "source_materials/input/archive/derived_sources/K243253/visual_excerpt.txt",
+      "original_sha256": "0de14e20e0d137e6066912d78b780fd8466df8131b0efc061c6790e00f8ed4fc",
+      "sha256": "0de14e20e0d137e6066912d78b780fd8466df8131b0efc061c6790e00f8ed4fc",
+      "bytes": 2866,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/derived_sources/K250569/visual_excerpt.txt",
+      "original_sha256": "0e76544bb9641285880aa10fbcd578c006bb35a1b3f5ff524a47e7fc5f99bf72",
+      "sha256": "0e76544bb9641285880aa10fbcd578c006bb35a1b3f5ff524a47e7fc5f99bf72",
+      "bytes": 729,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/derived_sources/K251203/visual_excerpt.txt",
+      "original_sha256": "293dba3f791825da582de08d61a194d13bed39da4d64eb7ee1f6c55d6db40c0d",
+      "sha256": "293dba3f791825da582de08d61a194d13bed39da4d64eb7ee1f6c55d6db40c0d",
+      "bytes": 858,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/derived_sources/K251416/visual_excerpt.txt",
+      "original_sha256": "878ec4e9007833b4fe0aae28f22447461836e081837ff120152d89c54f6f2848",
+      "sha256": "878ec4e9007833b4fe0aae28f22447461836e081837ff120152d89c54f6f2848",
+      "bytes": 1345,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/derived_sources/K252099/visual_excerpt.txt",
+      "original_sha256": "740d69690186d7f324e9c210d3b745cdc4efe64e09d1b3c1dfdb908086535859",
+      "sha256": "740d69690186d7f324e9c210d3b745cdc4efe64e09d1b3c1dfdb908086535859",
+      "bytes": 1382,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K183593/K183593.510kSummary.Final_Sent001.pdf",
+      "original_sha256": "fb4e69d83381cacc582fbf692698ee2f38b7681d9c9caa0a47fe71fea9ad4dac",
+      "sha256": "fb4e69d83381cacc582fbf692698ee2f38b7681d9c9caa0a47fe71fea9ad4dac",
+      "bytes": 153348,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K183593/K183593.510kSummary.Final_Sent001.txt",
+      "original_sha256": "7f74e49e8d3e6f89d42637953bda1a6fbb17c8de2563735373368a8fb8d60c58",
+      "sha256": "7f74e49e8d3e6f89d42637953bda1a6fbb17c8de2563735373368a8fb8d60c58",
+      "bytes": 9426,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K183593/K183593.IFU.FINAL_Sent001.pdf",
+      "original_sha256": "6ed37c9e534905eafb38eccbf3ddaa6d44db4a69df2039f2bba56adb6794182f",
+      "sha256": "6ed37c9e534905eafb38eccbf3ddaa6d44db4a69df2039f2bba56adb6794182f",
+      "bytes": 168588,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K183593/K183593.IFU.FINAL_Sent001.txt",
+      "original_sha256": "2ac52aa5c7a5e4c55b01e0f0f5e331066443d7d3ccac093b773a8f7ad7080765",
+      "sha256": "2ac52aa5c7a5e4c55b01e0f0f5e331066443d7d3ccac093b773a8f7ad7080765",
+      "bytes": 1894,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K183593/K183593.Letter.SE.FINAL_Sent001.pdf",
+      "original_sha256": "81416a933b8513c6075a3019d1c9b4f0a96fbbe47314ab0c82006f1bafcb2a4d",
+      "sha256": "81416a933b8513c6075a3019d1c9b4f0a96fbbe47314ab0c82006f1bafcb2a4d",
+      "bytes": 214941,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K183593/K183593.Letter.SE.FINAL_Sent001.txt",
+      "original_sha256": "f8dbdcebe27c197d54a37eaebb4afebd738fb4bb319103796bcbd3ef71c3dc7c",
+      "sha256": "f8dbdcebe27c197d54a37eaebb4afebd738fb4bb319103796bcbd3ef71c3dc7c",
+      "bytes": 4525,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K190815/FDA_web_excerpt_physical_pages_2026-09-06.txt",
+      "original_sha256": "996ef71db432d67fe7a5957f9d7486715c7fb06510f810671a79eebe55d7edae",
+      "sha256": "996ef71db432d67fe7a5957f9d7486715c7fb06510f810671a79eebe55d7edae",
+      "bytes": 21668,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K190815/FDA_web_retrieval_excerpt_2026-09-06.txt",
+      "original_sha256": "de655e80368884efa96d648ca3cf91122d05fad14b8ae09ca1406f4bcc4454ed",
+      "sha256": "de655e80368884efa96d648ca3cf91122d05fad14b8ae09ca1406f4bcc4454ed",
+      "bytes": 26111,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K223073/FDA_web_excerpt_physical_pages_2026-09-06.txt",
+      "original_sha256": "900c3b43d4183cc48cbba4cb0c25392b65208a6ff18faf85c1fcbdf9cd1d1985",
+      "sha256": "900c3b43d4183cc48cbba4cb0c25392b65208a6ff18faf85c1fcbdf9cd1d1985",
+      "bytes": 14008,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K223073/FDA_web_retrieval_excerpt_2026-09-06.txt",
+      "original_sha256": "e3efde6b4371a84f4debd0a003504e74a5571e6f1d463d3deb30c887bc05e5df",
+      "sha256": "e3efde6b4371a84f4debd0a003504e74a5571e6f1d463d3deb30c887bc05e5df",
+      "bytes": 15814,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K233662/FDA_non_PDF_response_2026-09-06.txt",
+      "original_sha256": "42134f344e7c904327fb54d4a7ebbe43173af4d7e709dd55d5431b2b862c2bc8",
+      "sha256": "42134f344e7c904327fb54d4a7ebbe43173af4d7e709dd55d5431b2b862c2bc8",
+      "bytes": 165,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/K233662/retrieval_failure.json",
+      "original_sha256": "e2f822779aaa0e1f5c08a13a27d94cc8f48c5589ff856ececcebeabc07d2688b",
+      "sha256": "e2f822779aaa0e1f5c08a13a27d94cc8f48c5589ff856ececcebeabc07d2688b",
+      "bytes": 404,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/portfolio_index.json",
+      "original_sha256": "88cc78d7e55bec6c77b366a702a9cee21966a3d888a6dffe74f0f60e5cec0297",
+      "sha256": "2c1bb4d0b4c597bf3cb13ee9dcee76a7708901c8cfd0b11222bd795b84c119c6",
+      "bytes": 5944,
+      "transformation": "PUBLIC_RELATIVE_PATH_PROJECTION"
+    },
+    {
+      "path": "source_materials/input/archive/supplemental_sources/web_excerpt_index.json",
+      "original_sha256": "f3a2cca8f2ea6a7013c91a9c430a938da9df859d4220ac78744bfad19b46a156",
+      "sha256": "4d22f5cdecdc0560a31024df14c9bc15aba76643aac054f037c85b47f71c3783",
+      "bytes": 2094,
+      "transformation": "PUBLIC_RELATIVE_PATH_PROJECTION"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/DEN130013_source_note.md",
+      "original_sha256": "de0c0e019f453046d87aa4d261e76d22833fc814c684a4379379643220f916fd",
+      "sha256": "de0c0e019f453046d87aa4d261e76d22833fc814c684a4379379643220f916fd",
+      "bytes": 378,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K150102_source_note.md",
+      "original_sha256": "800290289e4579ceb9d695bf15fde8165a7219850f2a0f9077b21f067cae9c8b",
+      "sha256": "800290289e4579ceb9d695bf15fde8165a7219850f2a0f9077b21f067cae9c8b",
+      "bytes": 375,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K150817_source_note.md",
+      "original_sha256": "32bb2a3180931460b690f743afb5f1243181c12f7881d27978f66cd3914cb7d0",
+      "sha256": "32bb2a3180931460b690f743afb5f1243181c12f7881d27978f66cd3914cb7d0",
+      "bytes": 397,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K181288_source_note.md",
+      "original_sha256": "5c0afbb958824c4b01fdcbae1df8db300b184866ae2a9b977ab56513ec647f33",
+      "sha256": "5c0afbb958824c4b01fdcbae1df8db300b184866ae2a9b977ab56513ec647f33",
+      "bytes": 386,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K182513_FDA_review_note.md",
+      "original_sha256": "93183c88b7a70e492e101e67a943d408ab9afe69fd4b86c093e96c3655ad0b44",
+      "sha256": "93183c88b7a70e492e101e67a943d408ab9afe69fd4b86c093e96c3655ad0b44",
+      "bytes": 2005,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K192665_source_note.md",
+      "original_sha256": "1d7aed5d529adda55b37e53c8d361f30d2b657d9c394d73f1e1b104bf3df3c7d",
+      "sha256": "1d7aed5d529adda55b37e53c8d361f30d2b657d9c394d73f1e1b104bf3df3c7d",
+      "bytes": 406,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K233625_source_note.md",
+      "original_sha256": "3778d552b5f2a72ae70799787a75bf015c6c5bed32b52f2995de8a7ded2852b0",
+      "sha256": "3778d552b5f2a72ae70799787a75bf015c6c5bed32b52f2995de8a7ded2852b0",
+      "bytes": 386,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K233662_source_note.md",
+      "original_sha256": "8258f7191ab6382a5ab8b478c1ca6dad06f3d724464f3dc52299a4120cd4058c",
+      "sha256": "8258f7191ab6382a5ab8b478c1ca6dad06f3d724464f3dc52299a4120cd4058c",
+      "bytes": 616,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K240929_source_note.md",
+      "original_sha256": "abb0b9012fbd81880ccaa0c40c152a86e337b336346edc694133b5808c41cc33",
+      "sha256": "abb0b9012fbd81880ccaa0c40c152a86e337b336346edc694133b5808c41cc33",
+      "bytes": 463,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K241676_source_note.md",
+      "original_sha256": "80c4f45c2d4cca64c77b219ceb50d775b58e727192c2557acc45f22db9977c58",
+      "sha256": "80c4f45c2d4cca64c77b219ceb50d775b58e727192c2557acc45f22db9977c58",
+      "bytes": 372,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K243449_source_note.md",
+      "original_sha256": "27110ecf3553668d70b2de578de4973138b041c971a9126724ffb6024bb5a968",
+      "sha256": "27110ecf3553668d70b2de578de4973138b041c971a9126724ffb6024bb5a968",
+      "bytes": 354,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K250670_source_note.md",
+      "original_sha256": "358324044307e6672c7a724c52aedd21a70c1c7ca11f3c8d30b8e06f369feb44",
+      "sha256": "358324044307e6672c7a724c52aedd21a70c1c7ca11f3c8d30b8e06f369feb44",
+      "bytes": 389,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/K251657_source_note.md",
+      "original_sha256": "0384a16c6aa2ebe3f1fe94113cf0b53e56c8915ac416f799d55a5376b2ea8c7c",
+      "sha256": "0384a16c6aa2ebe3f1fe94113cf0b53e56c8915ac416f799d55a5376b2ea8c7c",
+      "bytes": 379,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round3/P950009_source_note.md",
+      "original_sha256": "731835a5d4afcbd5c53f0e24640f436e38c0f1315784bdd88ed2d56e70f2fbc0",
+      "sha256": "731835a5d4afcbd5c53f0e24640f436e38c0f1315784bdd88ed2d56e70f2fbc0",
+      "bytes": 405,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round4/K182513_本轮来源核查.md",
+      "original_sha256": "d487c14b7ecec9c4002910b30397933a96bd88f1d40ec382e6d5632f0952e9a8",
+      "sha256": "d487c14b7ecec9c4002910b30397933a96bd88f1d40ec382e6d5632f0952e9a8",
+      "bytes": 1926,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round4/K182513_用户提供指定页摘录.txt",
+      "original_sha256": "1508f533e0463f53cc55488eaed934783eb30f92035c1c9cb004a19d141f0bde",
+      "sha256": "1508f533e0463f53cc55488eaed934783eb30f92035c1c9cb004a19d141f0bde",
+      "bytes": 6380,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/round4/来源索引.csv",
+      "original_sha256": "9b6eec53dda7643aeef1cebd346507a3392b0cff4b9be0b69744b347f15c518d",
+      "sha256": "fab59939557145c76724416bbcd23673bf8d2860c80f7559ec79e6ce491d9c92",
+      "bytes": 353,
+      "transformation": "PUBLIC_FDA_SOURCE_ENTRIES; editorial and author-administration entries omitted"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/visual/P040028_physical_page_01.png",
+      "original_sha256": "40d59b79dfb3c09cb98cf7d040fcdcc901449b1b82c1d60a4ac08379717d8b26",
+      "sha256": "40d59b79dfb3c09cb98cf7d040fcdcc901449b1b82c1d60a4ac08379717d8b26",
+      "bytes": 215339,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/visual/P040028_physical_page_07.png",
+      "original_sha256": "234f2b8e1b56149718d9f9ea35ff2259af53d391eb4e03abbce8b22d2a9477dc",
+      "sha256": "234f2b8e1b56149718d9f9ea35ff2259af53d391eb4e03abbce8b22d2a9477dc",
+      "bytes": 297402,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    },
+    {
+      "path": "source_materials/input/archive/evidence/visual/P040028_physical_page_08.png",
+      "original_sha256": "f508f9a434793f55e6bc8a1dd2349868648f5acfee2b4c0474d9143033abe495",
+      "sha256": "f508f9a434793f55e6bc8a1dd2349868648f5acfee2b4c0474d9143033abe495",
+      "bytes": 311501,
+      "transformation": "BYTE_IDENTICAL_SOURCE_ADDENDUM"
+    }
+  ],
+  "scientific_content": "Retained source notes, supplementary PDFs, stored excerpts and page images.",
+  "projected_index": "The mixed index is represented by its FDA source entries; its duplicate Markdown rendering and unrelated editorial administration are omitted."
+}

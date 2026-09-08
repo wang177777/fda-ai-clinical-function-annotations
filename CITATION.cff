@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Please cite the version of the dataset used in your work."
+type: dataset
+title: "Clinical-function annotations for 1524 US artificial intelligence medical-device authorizations"
+authors:
+  - family-names: Wang
+    given-names: Guoyong
+  - family-names: Zhang
+    given-names: Kaijun
+  - family-names: Jiang
+    given-names: Jiyue
+  - family-names: Wang
+    given-names: Weixin
+  - family-names: Bi
+    given-names: Hui
+  - family-names: Liang
+    given-names: Haojun
+  - family-names: Qi
+    given-names: Zuoliang
+  - family-names: Huang
+    given-names: Ying
+  - family-names: Li
+    given-names: Yu
+  - family-names: Yang
+    given-names: Xiaonan
+version: 1.3.0
+date-released: 2026-09-08
+url: "https://github.com/wang177777/fda-ai-clinical-function-annotations/releases/tag/v1.3.0"
+repository-code: "https://github.com/wang177777/fda-ai-clinical-function-annotations"
+license: CC-BY-4.0
+keywords:
+  - artificial intelligence
+  - medical devices
+  - clinical function
+  - regulatory documents
+  - annotation dataset

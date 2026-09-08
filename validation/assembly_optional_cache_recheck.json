@@ -1,0 +1,39 @@
+{
+  "bridge_anchor_counts": {
+    "BRIDGE_SPAN_HASH_MATCH": 145
+  },
+  "bridge_failures": [],
+  "by_artifact_kind": [
+    {
+      "n": 42,
+      "status": "VERIFIED_SPAN_HASH_MATCH",
+      "text_source_kind": "FDA_HTML_EXTRACT"
+    },
+    {
+      "n": 8939,
+      "status": "VERIFIED_SPAN_HASH_MATCH",
+      "text_source_kind": "FDA_PDF_TEXT_EXTRACT"
+    },
+    {
+      "n": 16,
+      "status": "VERIFIED_SPAN_HASH_MATCH",
+      "text_source_kind": "STORED_IMAGE_TRANSCRIPTION"
+    },
+    {
+      "n": 18,
+      "status": "VERIFIED_SPAN_HASH_MATCH",
+      "text_source_kind": "STORED_WEB_EXCERPT"
+    }
+  ],
+  "counts": {
+    "NO_VERIFIED_SPAN_NOT_RECHECKED": 129,
+    "VERIFIED_SPAN_HASH_MATCH": 9015
+  },
+  "failures": [],
+  "found_distinct_text_hashes": 1518,
+  "independent_image_or_human_review_performed": false,
+  "interpretation": "A text hash match proves only the recorded string location within the supplied archived artifact. A transcription/excerpt remains a transcription/excerpt, not independent OCR/source validation.",
+  "required_distinct_text_hashes": 1518,
+  "semantic_accuracy_estimated": false,
+  "status": "PASS_FOR_AVAILABLE_VERIFIED_SPANS"
+}

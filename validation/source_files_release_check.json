@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "group": "all",
+  "files_checked": 6275,
+  "missing_files": [],
+  "mismatched_files": [],
+  "recorded_document_hashes_accounted_for": 3109,
+  "recorded_failed_or_unavailable_rows": 16
+}

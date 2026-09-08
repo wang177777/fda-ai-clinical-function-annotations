@@ -1,0 +1,624 @@
+{
+  "ai_function_scope": {
+    "DESCRIBED_AI_OR_ALGORITHMIC_FUNCTION": 1421,
+    "DEVICE_FUNCTION_AI_ATTRIBUTION_UNRESOLVED": 101,
+    "SOURCE_INSUFFICIENT": 2
+  },
+  "all_quoted_texts_relocated_claimed": false,
+  "assembly_text_locator_check_by_source_kind": [
+    {
+      "locator_check_status": "EXACT_RECORDED_SPAN_MATCH",
+      "n": 42,
+      "text_source_kind": "FDA_HTML_EXTRACT"
+    },
+    {
+      "locator_check_status": "EXACT_QUOTE_MATCH_CORRECTED_PAGE_OR_SPAN",
+      "n": 22,
+      "text_source_kind": "FDA_PDF_TEXT_EXTRACT"
+    },
+    {
+      "locator_check_status": "EXACT_QUOTE_MATCH_CORRECTED_SPAN_SAME_PAGE",
+      "n": 26,
+      "text_source_kind": "FDA_PDF_TEXT_EXTRACT"
+    },
+    {
+      "locator_check_status": "EXACT_RECORDED_SPAN_MATCH",
+      "n": 8891,
+      "text_source_kind": "FDA_PDF_TEXT_EXTRACT"
+    },
+    {
+      "locator_check_status": "QUOTE_PRESENT_MULTIPLE_PAGES_NO_AUTOMATIC_CORRECTION",
+      "n": 2,
+      "text_source_kind": "FDA_PDF_TEXT_EXTRACT"
+    },
+    {
+      "locator_check_status": "RECORDED_IMAGE_TRANSCRIPTION_NOT_RECHECKED",
+      "n": 121,
+      "text_source_kind": "FDA_PDF_TEXT_EXTRACT"
+    },
+    {
+      "locator_check_status": "NO_MACHINE_TEXT_ANCHOR",
+      "n": 6,
+      "text_source_kind": "PAGE_ONLY_REFERENCE"
+    },
+    {
+      "locator_check_status": "EXACT_RECORDED_SPAN_MATCH",
+      "n": 16,
+      "text_source_kind": "STORED_IMAGE_TRANSCRIPTION"
+    },
+    {
+      "locator_check_status": "EXACT_RECORDED_SPAN_MATCH",
+      "n": 18,
+      "text_source_kind": "STORED_WEB_EXCERPT"
+    }
+  ],
+  "assembly_text_locator_check_status": {
+    "EXACT_QUOTE_MATCH_CORRECTED_PAGE_OR_SPAN": 22,
+    "EXACT_QUOTE_MATCH_CORRECTED_SPAN_SAME_PAGE": 26,
+    "EXACT_RECORDED_SPAN_MATCH": 8967,
+    "NO_MACHINE_TEXT_ANCHOR": 6,
+    "QUOTE_PRESENT_MULTIPLE_PAGES_NO_AUTOMATIC_CORRECTION": 2,
+    "RECORDED_IMAGE_TRANSCRIPTION_NOT_RECHECKED": 121
+  },
+  "assembly_verified_exact_anchors": 9015,
+  "associated_source_caution_codes": {
+    "AI_FEATURE_EXPLICITLY_OUTSIDE_CURRENT_SUBMISSION_SCOPE": 10,
+    "CAMERA_AI_DETAIL_NOT_RESTATED": 4,
+    "CONFIGURATION_VARIATION_NOT_RESOLVED": 7,
+    "EXPLICIT_PREDICATE_FEATURE_EXCLUSIONS": 3,
+    "FEATURE_CONTEXT_NOT_WHOLE_DEVICE_CONTEXT": 10,
+    "FEATURE_CONTEXT_TRANSFER_REQUIRES_SCOPE_QUALIFICATION": 10,
+    "FEATURE_NOT_NAMED_IN_CURRENT_SUMMARY": 16,
+    "FUNCTION_INVENTORY_NOT_SEMANTICALLY_REVALIDATED": 10,
+    "INTEGRATED_FEATURE_NOT_NEW_AI_CLEARANCE": 10,
+    "MODIFIED_FEATURES_NOT_BLANKET_UNCHANGED": 4,
+    "MULTILABEL_QUOTE_NOT_EXHAUSTIVE": 12,
+    "MULTI_HOP_CHAIN_REQUIRED": 8,
+    "NEGATIVE_SOURCE_LABEL_NOT_VALIDATED_BY_POSITIVE_BRIDGE": 1,
+    "NEW_APPLICATION_AI_ATTRIBUTION_NOT_INFERRED": 2,
+    "PERFORMANCE_CONTINUITY_NOT_FEATURE_LEVEL_PROOF": 2,
+    "SINGLE_FUNCTION_EXHAUSTIVENESS_NOT_REVALIDATED": 1,
+    "VALIDATION_INPUT_CONTEXT_NOT_DEPLOYMENT_OBSERVATION": 3
+  },
+  "associated_source_relation_categories": {
+    "CURRENT_FEATURE_LIST_WITH_MODIFIED_AI_MODULES": 3,
+    "EXPLICIT_AI_FEATURE_CONTINUITY_WITH_EXCLUSIONS": 3,
+    "EXPLICIT_AI_FEATURE_MIGRATION": 4,
+    "EXPLICIT_FEATURE_CARRYOVER": 6,
+    "EXPLICIT_FEATURE_TRANSFER": 2,
+    "EXPLICIT_INTEGRATION_OUTSIDE_CURRENT_SUBMISSION_SCOPE": 10,
+    "EXPLICIT_ML_CONTINUITY": 4,
+    "EXPLICIT_MULTI_HOP_ML_CONTINUITY": 8,
+    "EXPLICIT_NAMED_AI_FEATURE_ADOPTION": 4,
+    "EXPLICIT_NAMED_FEATURE_REUSE": 3,
+    "EXPLICIT_RETAINED_FEATURES_AND_ADDED_APPLICATIONS": 2,
+    "GENERAL_FIRMWARE_CONTINUITY_FEATURE_NOT_RESTATED": 4,
+    "GENERAL_PERFORMANCE_CONTINUITY_FEATURE_NOT_RESTATED": 2,
+    "GENERAL_SOFTWARE_CONTINUITY_FEATURE_NOT_RESTATED": 10
+  },
+  "author_reported_confirmation_scope": {
+    "actual_adjudicated_case_count": null,
+    "clinical_reviewers": [
+      "Xiaonan Yang",
+      "Weixin Wang"
+    ],
+    "covered_material": "Supplied-draft field labels, assessment states, function attribution, rationales, and source locators",
+    "interrater_agreement_estimated": false,
+    "paired_independent_initial_ratings_available": false,
+    "reported_confirmation_date": "2026-09-08",
+    "reported_procedure": "Discussion between the two reviewers. Unresolved disagreements were to be referred to Zuoliang Qi.",
+    "review_date_basis": "Author-supplied confirmation date; not individual reading or signing timestamps",
+    "supplied_draft_authorizations": 1524,
+    "supplied_draft_field_positions": 9144
+  },
+  "baseline_source_limited_fields": 772,
+  "clinical_function_group": {
+    "MULTIPLE": 247,
+    "SINGLE": 1155,
+    "UNCERTAIN": 122
+  },
+  "cohort_snapshot_access_date": "2026-06-29",
+  "cross_authorization_URL_fields": 65,
+  "cross_authorization_URL_subjects": 20,
+  "cross_authorization_subject_URL_pairs": 21,
+  "label_frequencies": [
+    {
+      "code": "INTERPRETATION_OR_DIAGNOSIS",
+      "field": "action",
+      "n": 899
+    },
+    {
+      "code": "MONITORING_OR_FOLLOW_UP",
+      "field": "action",
+      "n": 228
+    },
+    {
+      "code": "NOT_ASSESSABLE",
+      "field": "action",
+      "n": 103
+    },
+    {
+      "code": "NOT_STATED",
+      "field": "action",
+      "n": 15
+    },
+    {
+      "code": "OTHER",
+      "field": "action",
+      "n": 69
+    },
+    {
+      "code": "PATIENT_SELF_MANAGEMENT",
+      "field": "action",
+      "n": 16
+    },
+    {
+      "code": "REFERRAL_OR_ESCALATION",
+      "field": "action",
+      "n": 54
+    },
+    {
+      "code": "THERAPY_DOSE_OR_DEVICE_CONTROL",
+      "field": "action",
+      "n": 47
+    },
+    {
+      "code": "TREATMENT_OR_PROCEDURE_PLANNING",
+      "field": "action",
+      "n": 298
+    },
+    {
+      "code": "TRIAGE_OR_PRIORITIZATION",
+      "field": "action",
+      "n": 128
+    },
+    {
+      "code": "WORKFLOW_OR_DOCUMENTATION",
+      "field": "action",
+      "n": 392
+    },
+    {
+      "code": "MULTIPLE",
+      "field": "component_status",
+      "n": 247
+    },
+    {
+      "code": "SINGLE",
+      "field": "component_status",
+      "n": 1155
+    },
+    {
+      "code": "UNCERTAIN",
+      "field": "component_status",
+      "n": 122
+    },
+    {
+      "code": "AUDIO_OR_VIDEO",
+      "field": "input",
+      "n": 121
+    },
+    {
+      "code": "CLINICAL_TABULAR_OR_TEXT",
+      "field": "input",
+      "n": 55
+    },
+    {
+      "code": "DEVICE_TELEMETRY_OR_OPERATIONAL",
+      "field": "input",
+      "n": 24
+    },
+    {
+      "code": "LAB_SPECIMEN_OR_OMICS",
+      "field": "input",
+      "n": 12
+    },
+    {
+      "code": "MEDICAL_IMAGE",
+      "field": "input",
+      "n": 1154
+    },
+    {
+      "code": "MULTIMODAL",
+      "field": "input",
+      "n": 38
+    },
+    {
+      "code": "NOT_ASSESSABLE",
+      "field": "input",
+      "n": 103
+    },
+    {
+      "code": "NOT_STATED",
+      "field": "input",
+      "n": 7
+    },
+    {
+      "code": "OTHER",
+      "field": "input",
+      "n": 14
+    },
+    {
+      "code": "PHYSIOLOGICAL_SIGNAL",
+      "field": "input",
+      "n": 165
+    },
+    {
+      "code": "CLASSIFICATION_OR_DIAGNOSIS",
+      "field": "output",
+      "n": 302
+    },
+    {
+      "code": "CONTROL_OR_AUTOMATION",
+      "field": "output",
+      "n": 48
+    },
+    {
+      "code": "DETECTION_OR_ALERT",
+      "field": "output",
+      "n": 406
+    },
+    {
+      "code": "DOCUMENTATION_OR_SUMMARY",
+      "field": "output",
+      "n": 322
+    },
+    {
+      "code": "MEASUREMENT_OR_QUANTIFICATION",
+      "field": "output",
+      "n": 640
+    },
+    {
+      "code": "NOT_ASSESSABLE",
+      "field": "output",
+      "n": 103
+    },
+    {
+      "code": "OTHER",
+      "field": "output",
+      "n": 134
+    },
+    {
+      "code": "RECOMMENDATION_OR_PLANNING",
+      "field": "output",
+      "n": 102
+    },
+    {
+      "code": "RECONSTRUCTION_OR_ENHANCEMENT",
+      "field": "output",
+      "n": 309
+    },
+    {
+      "code": "RISK_SCORE_OR_PREDICTION",
+      "field": "output",
+      "n": 63
+    },
+    {
+      "code": "SEGMENTATION_OR_LOCALIZATION",
+      "field": "output",
+      "n": 683
+    },
+    {
+      "code": "ACUTE_TRIAGE_OR_EMERGENCY",
+      "field": "setting",
+      "n": 141
+    },
+    {
+      "code": "DIAGNOSTIC_INTERPRETATION",
+      "field": "setting",
+      "n": 826
+    },
+    {
+      "code": "HOME_OR_CONSUMER",
+      "field": "setting",
+      "n": 67
+    },
+    {
+      "code": "INPATIENT",
+      "field": "setting",
+      "n": 29
+    },
+    {
+      "code": "LABORATORY",
+      "field": "setting",
+      "n": 31
+    },
+    {
+      "code": "MONITORING",
+      "field": "setting",
+      "n": 228
+    },
+    {
+      "code": "NOT_ASSESSABLE",
+      "field": "setting",
+      "n": 103
+    },
+    {
+      "code": "NOT_STATED",
+      "field": "setting",
+      "n": 11
+    },
+    {
+      "code": "OTHER",
+      "field": "setting",
+      "n": 529
+    },
+    {
+      "code": "OUTPATIENT",
+      "field": "setting",
+      "n": 108
+    },
+    {
+      "code": "PROCEDURAL_OR_OPERATING_ROOM",
+      "field": "setting",
+      "n": 289
+    },
+    {
+      "code": "SCREENING",
+      "field": "setting",
+      "n": 122
+    },
+    {
+      "code": "LABORATORY_PROFESSIONAL",
+      "field": "user",
+      "n": 18
+    },
+    {
+      "code": "NOT_ASSESSABLE",
+      "field": "user",
+      "n": 103
+    },
+    {
+      "code": "NOT_STATED",
+      "field": "user",
+      "n": 102
+    },
+    {
+      "code": "OTHER",
+      "field": "user",
+      "n": 43
+    },
+    {
+      "code": "OTHER_CLINICIAN",
+      "field": "user",
+      "n": 738
+    },
+    {
+      "code": "OTHER_PHYSICIAN",
+      "field": "user",
+      "n": 693
+    },
+    {
+      "code": "PATIENT_OR_CAREGIVER",
+      "field": "user",
+      "n": 50
+    },
+    {
+      "code": "RADIOLOGIST",
+      "field": "user",
+      "n": 287
+    },
+    {
+      "code": "TECHNOLOGIST_OR_OPERATOR",
+      "field": "user",
+      "n": 198
+    }
+  ],
+  "mechanically_added_alternative_anchor_fields": 48,
+  "multiple_function_with_single_output_label": 14,
+  "output_label_breadth_by_function_group": [
+    {
+      "clinical_function_group": "MULTIPLE",
+      "n": 14,
+      "output_label_count": 1
+    },
+    {
+      "clinical_function_group": "MULTIPLE",
+      "n": 97,
+      "output_label_count": 2
+    },
+    {
+      "clinical_function_group": "MULTIPLE",
+      "n": 83,
+      "output_label_count": 3
+    },
+    {
+      "clinical_function_group": "MULTIPLE",
+      "n": 39,
+      "output_label_count": 4
+    },
+    {
+      "clinical_function_group": "MULTIPLE",
+      "n": 11,
+      "output_label_count": 5
+    },
+    {
+      "clinical_function_group": "MULTIPLE",
+      "n": 2,
+      "output_label_count": 6
+    },
+    {
+      "clinical_function_group": "MULTIPLE",
+      "n": 1,
+      "output_label_count": 7
+    },
+    {
+      "clinical_function_group": "SINGLE",
+      "n": 485,
+      "output_label_count": 1
+    },
+    {
+      "clinical_function_group": "SINGLE",
+      "n": 336,
+      "output_label_count": 2
+    },
+    {
+      "clinical_function_group": "SINGLE",
+      "n": 232,
+      "output_label_count": 3
+    },
+    {
+      "clinical_function_group": "SINGLE",
+      "n": 80,
+      "output_label_count": 4
+    },
+    {
+      "clinical_function_group": "SINGLE",
+      "n": 18,
+      "output_label_count": 5
+    },
+    {
+      "clinical_function_group": "SINGLE",
+      "n": 4,
+      "output_label_count": 6
+    },
+    {
+      "clinical_function_group": "UNCERTAIN",
+      "n": 103,
+      "output_label_count": 0
+    },
+    {
+      "clinical_function_group": "UNCERTAIN",
+      "n": 6,
+      "output_label_count": 1
+    },
+    {
+      "clinical_function_group": "UNCERTAIN",
+      "n": 10,
+      "output_label_count": 2
+    },
+    {
+      "clinical_function_group": "UNCERTAIN",
+      "n": 3,
+      "output_label_count": 3
+    }
+  ],
+  "propagated_source_or_AI_attribution_limited_fields": 618,
+  "release_1_2_documentation": {
+    "cohort_mapping_check": "PASS",
+    "cohort_snapshot_manifest": 3,
+    "cohort_snapshot_membership": 1524,
+    "other_label_notes": 789,
+    "other_note_processing_counts": {
+      "AI_ASSISTED_ENGLISH_TRANSLATION": 78,
+      "NO_OTHER_SPECIFIC_NOTE_ADDED": 583,
+      "RETAINED_ENGLISH_OR_LATIN_TEXT": 128
+    },
+    "other_note_status_counts": {
+      "EXPLICIT_OTHER_ASSIGNMENT_IN_RETAINED_REASON": 8,
+      "MULTILABEL_OTHER_ATTRIBUTION_NOT_ISOLATED": 583,
+      "SINGLE_OTHER_EXISTING_FIELD_REASON": 198
+    },
+    "other_notes_populated": 206,
+    "other_notes_unseparated_multilabel": 583
+  },
+  "release_1_3_public_sources": {
+    "all_15_tables_reconstructed_byte_identically": true,
+    "all_recorded_document_hashes_accounted_for": true,
+    "preserved_v1_2_data_tables": 14,
+    "scientific_input_files": 3166,
+    "source_archives": 6,
+    "source_document_files": 3109
+  },
+  "release_status": "GITHUB_VERSIONED_RELEASE",
+  "release_version": "1.3.0",
+  "scope_by_function_group": [
+    {
+      "ai_function_scope": "DESCRIBED_AI_OR_ALGORITHMIC_FUNCTION",
+      "clinical_function_group": "MULTIPLE",
+      "n": 247
+    },
+    {
+      "ai_function_scope": "DESCRIBED_AI_OR_ALGORITHMIC_FUNCTION",
+      "clinical_function_group": "SINGLE",
+      "n": 1155
+    },
+    {
+      "ai_function_scope": "DESCRIBED_AI_OR_ALGORITHMIC_FUNCTION",
+      "clinical_function_group": "UNCERTAIN",
+      "n": 19
+    },
+    {
+      "ai_function_scope": "DEVICE_FUNCTION_AI_ATTRIBUTION_UNRESOLVED",
+      "clinical_function_group": "UNCERTAIN",
+      "n": 101
+    },
+    {
+      "ai_function_scope": "SOURCE_INSUFFICIENT",
+      "clinical_function_group": "UNCERTAIN",
+      "n": 2
+    }
+  ],
+  "semantic_accuracy_or_human_reliability_estimated": false,
+  "semantic_amendment_date": "2026-09-08",
+  "semantic_review_field_codes_amended": 7,
+  "semantic_review_new_machine_spans": 0,
+  "semantic_review_scope_amendments": 1,
+  "semantic_review_source_references_context_only": 1,
+  "semantic_review_source_references_field_cited": 5,
+  "single_function_with_multiple_output_labels": 670,
+  "source_authorization_relationship": {
+    "DIRECT_SUBJECT_AUTHORIZATION_TOKEN": 9073,
+    "OTHER_AUTHORIZATION_NOT_SUBJECT_LINKED_IN_LEGACY_MANIFEST": 65,
+    "SAME_SUBJECT_ALTERNATE_REGULATORY_IDENTIFIER": 6
+  },
+  "source_capture_records_not_unique_documents": true,
+  "source_limited_authorizations": 241,
+  "source_limited_field_count_per_authorization": {
+    "0": 1283,
+    "1": 125,
+    "2": 10,
+    "3": 3,
+    "6": 103
+  },
+  "source_limited_fields": 772,
+  "source_limited_fields_by_domain": {
+    "action": 118,
+    "component_status": 122,
+    "input": 110,
+    "output": 103,
+    "setting": 114,
+    "user": 205
+  },
+  "source_limited_fields_by_layer": {
+    "AI_ATTRIBUTION_BARRIER": 606,
+    "FIELD_NOT_STATED": 135,
+    "FUNCTION_GROUP_UNRESOLVED": 19,
+    "NONE": 8372,
+    "SOURCE_INSUFFICIENT": 12
+  },
+  "source_retrieval_status_in_legacy_manifest": {
+    "failed": 4,
+    "success": 3157,
+    "unavailable": 12
+  },
+  "subject_source_bridge_purposes": {
+    "INTERMEDIATE_SOURCE_CHAIN_BRIDGE": 24,
+    "SUBJECT_SOURCE_ADDITIONAL_DETAIL": 6,
+    "SUBJECT_TO_ASSOCIATED_SOURCE_BRIDGE": 115
+  },
+  "table_counts": {
+    "additional_source_records": 0,
+    "associated_source_relationship_rows": 65,
+    "authorizations": 1524,
+    "cohort_snapshot_manifest": 3,
+    "cohort_snapshot_membership": 1524,
+    "confirmed_semantic_amendment_cells": 8,
+    "evidence_links": 9144,
+    "field_annotations": 9144,
+    "legacy_source_records": 3173,
+    "other_label_notes": 789,
+    "positive_labels_first_five_fields": 11120,
+    "regulatory_identifier_alias_rows": 1,
+    "retained_version_change_cells": 8,
+    "semantic_review_records": 12,
+    "semantic_review_sources": 6,
+    "source_records": 3173,
+    "subject_source_bridge_rows": 145,
+    "total_version_change_cells": 16
+  },
+  "unique_source_URL_strings": 3159,
+  "unit": "FDA submission-level authorization; not a unique product, internal model, or individual AI function",
+  "validation_scope": "Offline validator checks schema, keys, vocabulary, propagation, baseline changes, counts and file hashes. Assembly text matching is separately classified by extract/transcription/web-excerpt provenance; no semantic accuracy or human agreement is estimated.",
+  "within_AI_attributed_authorizations_with_any_limited_field": 138,
+  "within_AI_attributed_limited_fields": 154
+}

@@ -1,0 +1,32 @@
+{
+  "added_positive_label_memberships": 1,
+  "authorization_metadata_preserved": true,
+  "comparison_basis": "Backed-up enriched release 1.0 versus incrementally integrated release 1.1",
+  "field_code_changes": [
+    "K182034:output",
+    "K190013:input",
+    "K190013:output",
+    "K190013:user",
+    "K190013:setting",
+    "K190013:action",
+    "K190013:component_status"
+  ],
+  "historical_baseline_preserved": true,
+  "independent_semantic_accuracy_estimated": false,
+  "integration_date": "2026-09-08",
+  "net_positive_label_membership_change": -7,
+  "preserved_data_files": [
+    "evidence_links.csv",
+    "source_records.csv",
+    "source_bridges.csv",
+    "associated_source_relationships.csv",
+    "regulatory_identifier_aliases.csv",
+    "vocabulary.csv"
+  ],
+  "removed_positive_label_memberships": 8,
+  "rerun_on_integrated_copy_byte_idempotent": true,
+  "scope_changes": [
+    "K190013"
+  ],
+  "status": "PASS"
+}
