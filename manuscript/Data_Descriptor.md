@@ -26,23 +26,23 @@ Public regulatory documents describe the clinical functions of artificial intell
 
 ## Background & Summary
 
-Public regulatory documents describe the clinical functions of artificial intelligence (AI)–enabled medical devices through submission summaries, decision documents, and intended-use statements. The US Food and Drug Administration (FDA) list supplies submission identifiers that link these descriptions across records.[1] Earlier public databases catalogued AI-enabled devices, while subsequent studies examined the clinical tasks, inputs, outputs, and clinician-facing interfaces described in their documentation.[2,3,4,5]
+Public regulatory documents describe the clinical functions of artificial intelligence (AI)–enabled medical devices through submission summaries, decision documents, and intended-use statements. The US Food and Drug Administration (FDA) list provides submission identifiers for locating these records.[1] Early work catalogued AI-enabled devices.[2] Subsequent studies characterized clinical tasks, inputs, and outputs.[3,4] Imaging-focused work examined intended use and clinician-facing interfaces.[5]
 
-The choice of source affects what can be extracted. Comparisons of marketing material with FDA records have identified differences in AI-related descriptions, and reviews of public regulatory documents have found uneven reporting of device evaluation and other attributes.[6,7] Recent work on regulatory databases highlights the need for searchable descriptions, structured metadata, and links between device versions.[8] A reusable annotation resource therefore needs to connect each classification to the source passage, document version, and function to which it applies.
+Extracted descriptions depend on the source. Marketing material and FDA records can differ in their AI-related descriptions.[6] Public regulatory documents also vary in their reporting of device evaluation and other attributes.[7] Recent analyses of regulatory databases identify searchable descriptions, structured metadata, and links between device versions as priorities.[8]
 
-The clinical meaning of an AI function depends on more than its output category. Joint FDA, Health Canada, and Medicines and Healthcare products Regulatory Agency transparency principles emphasize intended users, inputs and outputs, use environments, and the role of device information in decisions.[9] MINIMAR addresses intended predictions and the populations in which systems are developed and evaluated; DECIDE-AI places early clinical evaluation in its workflow and human-interaction context.[10,11] These perspectives motivate describing inputs, outputs, intended users, settings, and downstream actions together, while retaining the distinction between a whole-device description and an AI-related function.
+Clinical-function descriptions need to place outputs within their intended use context. Joint FDA, Health Canada, and Medicines and Healthcare products Regulatory Agency transparency principles address users, inputs and outputs, use environments, and the role of device information in decisions.[9] MINIMAR addresses intended predictions and the populations in which systems are developed and evaluated.[10] DECIDE-AI emphasizes workflow and human interaction during early clinical evaluation.[11]
 
-Large language models have been used to extract attributes from regulatory documents, and structured documentation frameworks organize information about clinical AI systems.[12,13] Related data resources illustrate complementary approaches to source traceability. SPIRIT-CONSORT-TM links clinical-trial annotations across text levels, and Aci-bench retains original and corrected clinical-text representations.[14,15] PharmaBench separates extraction of experimental context from subsequent processing, while PCMR records the sources and collection routes of biomedical associations.[16,17]
+Large language models have been used to extract attributes from regulatory documents.[12] SMART organizes documentation of clinical AI systems into a structured framework.[13] SPIRIT-CONSORT-TM links clinical-trial annotations to text at multiple levels.[14] Applying structured annotation to regulatory documents also requires determining whether a passage describes the whole device or an AI-related function.
 
-Here, we provide six-field annotations for a defined cohort of 1524 FDA authorizations, with explicit assessment states, field-linked evidence, source-association records, and executable integrity checks (Fig. 1). Researchers can retrieve documents for a chosen input or output category, distinguish field-specific missing information from unresolved AI attribution, and construct documented subsets for annotation-method development. Stable identifiers, dictionaries, version records, and explicit access arrangements support the traceability and reuse objectives described by FAIR and FAIRsharing.[18,19]
-
-The authorization cohort and part of the downstream-action taxonomy are shared with a broader public-disclosure study. This Data Descriptor documents the six-field annotation resource and its supporting evidence.
+Here, we provide six-field annotations for 1524 FDA authorizations: input, output, intended user, setting or use context, downstream action, and clinical-function grouping (Fig. 1). Assessment states, field-linked evidence, and executable checks support source retrieval and documented subset construction. Stable identifiers, dictionaries, and version records support reuse in line with FAIR principles.[15]
 
 ## Methods
 
 ### Cohort and source collection
 
-The cohort comprises the 1524 submission-level records in the FDA list accessed June 29, 2026.[1] The retained authorization decision dates range from September 29, 1995, to March 30, 2026. Source retrieval records are dated June 30, 2026. The historical CSV and XLSX snapshots, access metadata, SHA-256 fingerprints, and original record positions are included in the release. Submission number is the linkage key, and device name and company are descriptive attributes. Multiple authorizations for a product family remain separate records. The observation unit is therefore an authorization, with products, internal models, and clinical deployments represented only insofar as they are described in the source material. Explicit documentation of the observation unit, cohort selection, and annotation context supports the interpretation of derived datasets and text corpora.[20,21]
+The authorization cohort and part of the downstream-action taxonomy are shared with a broader public-disclosure study.
+
+The cohort comprises the 1524 submission-level records in the FDA list accessed June 29, 2026.[1] The retained authorization decision dates range from September 29, 1995, to March 30, 2026. Source retrieval records are dated June 30, 2026. The historical CSV and XLSX snapshots, access metadata, SHA-256 fingerprints, and original record positions are included in the release. Submission number is the linkage key, and device name and company are descriptive attributes. Multiple authorizations for a product family remain separate records. The observation unit is therefore an authorization, with products, internal models, and clinical deployments represented only insofar as they are described in the source material. Explicit documentation of the observation unit, cohort selection, and annotation context supports the interpretation of derived datasets and text corpora.[16,17]
 
 Eligible sources were FDA-hosted or FDA-linked database entries, summaries, decision documents, labeling, and Indications for Use statements. The retained manifest contains 3173 retrieval records, including repeat captures. Retrieval dates and available document and text hashes identify the source versions. Inclusion on the FDA list identifies the cohort, while attribution of a particular description to an AI or algorithmic function is recorded separately. The resource contains public regulatory information and no individual participant data or identifiable private health information.
 
@@ -54,7 +54,7 @@ Two authorizations received targeted review of coding boundaries. The confirmed 
 
 The first five fields contain nonexclusive sets of labels. Input describes data directly consumed by the AI or algorithmic function. Output describes the reported result connected to that function, including downstream results explicitly linked to it. Intended user identifies the described user of the function. Setting or use context includes both clinical purposes, such as screening and monitoring, and locations. Downstream action records a stated connection between the output or described use and a subsequent clinical activity. The operational codebook supplies allowed values and boundary rules, including the distinction between intended users and validation-study participants and between a prediction and an ensuing treatment decision.
 
-The sixth field records clinical-function grouping as SINGLE, MULTIPLE, or UNCERTAIN. Its original column name, `component_status`, is retained for compatibility. Grouping concerns distinguishable clinical functions: one function may have several outputs or use several internal models, and separate functions may share a broad output category. This is a study-specific coding definition, distinct from the FDA's regulatory framework for multiple-function device products.[22]
+The sixth field records clinical-function grouping as SINGLE, MULTIPLE, or UNCERTAIN. Its original column name, `component_status`, is retained for compatibility. Grouping concerns distinguishable clinical functions: one function may have several outputs or use several internal models, and separate functions may share a broad output category. This is a study-specific coding definition, distinct from the FDA's regulatory framework for multiple-function device products.[18]
 
 For authorizations with multiple functions, the first five fields contain the union of the supported labels. Indications for Use statements and other eligible passages contribute to the same six fields. Input–output–action membership is represented at the authorization level. Table 3 illustrates selected applications of the attribution, output-category, and grouping rules.
 
@@ -68,9 +68,9 @@ The repository table `other_label_notes.csv` covers all 789 fields carrying the 
 
 ### Versioned assembly and evidence coordinates
 
-Each annotation identifier combines submission number and field name. Baseline and current values are retained, and positive labels are expanded into annotation–code membership rows. The cumulative amendment ledger contains 16 changed cells across four authorizations: eight prior amendments and eight amendments from the September 8 confirmation. Thirteen changes concern annotation fields and three concern scope. Input-file hashes and review provenance identify the successive annotation versions. Provenance models represent links to source material and revisions of earlier records.[23] Retaining the inputs and executable transformations also supports reconstruction of the derived tables.[24]
+Each annotation identifier combines submission number and field name. Baseline and current values are retained, and positive labels are expanded into annotation–code membership rows. The cumulative amendment ledger contains 16 changed cells across four authorizations: eight prior amendments and eight amendments from the September 8 confirmation. Thirteen changes concern annotation fields and three concern scope. Input-file hashes and review provenance identify the successive annotation versions. Provenance models represent links to source material and revisions of earlier records.[19] Retaining the inputs and executable transformations also supports reconstruction of the derived tables.[20]
 
-Evidence records link annotation identifiers to source-record identifiers and preserve the recorded public URL. URL-token checks identify references to the subject authorization, alternate identifiers, or another authorization. Cross-authorization references receive a separate source-association review because an earlier authorization can describe an inherited or integrated function. Published analyses of 510(k) predicate networks show why links between authorizations require examination of the functions described in each submission.[25] The resulting relationship and caution codes are retained with the original labels.
+Evidence records link annotation identifiers to source-record identifiers and preserve the recorded public URL. URL-token checks identify references to the subject authorization, alternate identifiers, or another authorization. Cross-authorization references receive a separate source-association review because an earlier authorization can describe an inherited or integrated function. Published analyses of 510(k) predicate networks show why links between authorizations require examination of the functions described in each submission.[21] The resulting relationship and caution codes are retained with the original labels.
 
 PDF page numbers refer to physical pages counted from one. Character intervals are zero-based, half-open offsets after whitespace normalization within an extracted page. Evidence records retain the source-text and quotation hashes, quote length, recorded coordinates, checked coordinates where established, and locator-check status. The release includes the normalization and locator routines. The September 8 semantic review adds page-level source references in separate tables; it preserves the earlier coordinate audit and its check statuses. The source-material archives include the retained document captures, annotation evidence, and text cache. Document and text hashes identify the versions used for the recorded coordinates.
 
@@ -80,7 +80,7 @@ Codex (OpenAI) assisted with source organization, draft taxonomy development, da
 
 ## Data Records
 
-Version 1.3.0 is available at https://github.com/wang177777/fda-ai-clinical-function-annotations/releases/tag/v1.3.0.[26] The release contains 15 UTF-8 comma-separated data tables, documentation, code, and source-material archives. Table 1 lists the principal files and their units. `authorizations.csv` supplies the submission key, `field_annotations.csv` holds six records per authorization, and `positive_labels.csv` records memberships for the first five fields. Clinical-function grouping remains in the authorization and field tables. Evidence references are assigned to fields and accompany their positive-label sets.
+Version 1.3.0 is available at https://github.com/wang177777/fda-ai-clinical-function-annotations/releases/tag/v1.3.0.[22] The release contains 15 UTF-8 comma-separated data tables, documentation, code, and source-material archives. Table 1 lists the principal files and their units. `authorizations.csv` supplies the submission key, `field_annotations.csv` holds six records per authorization, and `positive_labels.csv` records memberships for the first five fields. Clinical-function grouping remains in the authorization and field tables. Evidence references are assigned to fields and accompany their positive-label sets.
 
 `evidence_links.csv` provides a retained evidence record for every annotation, including contextual evidence for unresolved states. It links to retrieval records in `source_records.csv` and to the focused cross-authorization review in `associated_source_relationships.csv`. `source_bridges.csv` adds field-linked anchors for subject-to-associated-source relationships and relevant details. Source-record identifiers use semicolon-delimited lists, which are parsed before joining to the source table. The September 8 targeted review is represented by 12 rows in `semantic_review_records.csv`, linked by annotation identifier to the field table and to the cited entries in the six-reference `semantic_review_sources.csv` register. Five references are field-cited; one is retained for context. These records supply the rationale and page references for the confirmed amendments, including the added K182034 output category.
 
@@ -120,7 +120,7 @@ The recorded relationships distinguish named feature adoption, multistep continu
 
 The checks assess cohort identity, table consistency, evidence location, and the recorded relationships between source authorizations. All 3109 retained capture files matched their recorded hashes: 1584 PDF files, 1524 HTML files, and one non-PDF failure response. The capture manifest also identifies 16 failed retrievals with no retained document file. Three review-reference PDFs downloaded during release preparation accompany this retained capture set. Expert confirmation covered the supplied annotation draft and the two targeted coding decisions for K182034 and K190013.
 
-Semantic accuracy and label completeness were not independently estimated. Paired pre-discussion ratings were unavailable, so inter-rater agreement was not calculated; such estimates require separately recorded coding judgments.[27] Reuse should account for annotation scope, field-specific limitations, and shared products or source documents.
+Semantic accuracy and label completeness were not independently estimated. Paired pre-discussion ratings were unavailable, so inter-rater agreement was not calculated; such estimates require separately recorded coding judgments.[23] Reuse should account for annotation scope, field-specific limitations, and shared products or source documents.
 
 ## Usage Notes
 
@@ -130,15 +130,15 @@ Report denominators at the authorization level because one record can contribute
 
 The codebook and OTHER-note table provide category definitions and retained explanations. For example, THERAPY_DOSE_OR_DEVICE_CONTROL includes clinician-mediated changes and automatic control, while HOME_OR_CONSUMER includes some nonclinical consumer contexts. In the OTHER-note table, the unseparated status identifies a retained positive label whose whole-field reason does not isolate a specific explanation. Processing flags distinguish original wording from AI-assisted English translations.
 
-The data support descriptive reuse, source retrieval, and annotation-method development. Analyses of public descriptions should distinguish the information reported from the rigor of the underlying device evaluation.[28] Related authorizations and shared documents create dependencies; model-development studies should assess leakage across authorizations, product families, manufacturers, and source documents.[29] Record the dataset version, selection rules, and any subsequent source-based corrections, and cite the version used.[30]
+The data support descriptive reuse, source retrieval, and annotation-method development. Analyses of public descriptions should distinguish the information reported from the rigor of the underlying device evaluation.[24] Related authorizations and shared documents create dependencies; model-development studies should assess leakage across authorizations, product families, manufacturers, and source documents.[25] Record the dataset version, selection rules, and any subsequent source-based corrections, and cite the version used.[26]
 
 ## Data Availability
 
-The annotation tables, dictionaries, historical cohort files, retained source materials, and scientific reconstruction inputs are openly available in release v1.3.0 at https://github.com/wang177777/fda-ai-clinical-function-annotations/releases/tag/v1.3.0.[26] The repository provides individual derived files and downloadable source archives with SHA-256 manifests. Author-created data and documentation are licensed under CC BY 4.0. FDA-hosted source materials retain their original attribution and rights.
+The annotation tables, dictionaries, historical cohort files, retained source materials, and scientific reconstruction inputs are openly available in release v1.3.0 at https://github.com/wang177777/fda-ai-clinical-function-annotations/releases/tag/v1.3.0.[22] The repository provides individual derived files and downloadable source archives with SHA-256 manifests. Author-created data and documentation are licensed under CC BY 4.0. FDA-hosted source materials retain their original attribution and rights.
 
 ## Code Availability
 
-The assembly, validation, source-download, and retrieval scripts are available at https://github.com/wang177777/fda-ai-clinical-function-annotations/tree/v1.3.0/scripts under the MIT license. Data reconstruction and validation use Python 3.10 or later and the standard library. The repository documents how to download the source archives, reproduce the derived tables, and repeat the evidence-location checks. Figure-generation code and its rendering dependencies are provided in `figure_generation/`. The repository brings the code, data documentation, license information, and validation commands together using practices described for reusable scientific computing.[31]
+The assembly, validation, source-download, and retrieval scripts are available at https://github.com/wang177777/fda-ai-clinical-function-annotations/tree/v1.3.0/scripts under the MIT license. Data reconstruction and validation use Python 3.10 or later and the standard library. The repository documents how to download the source archives, reproduce the derived tables, and repeat the evidence-location checks. Figure-generation code and its rendering dependencies are provided in `figure_generation/`. The repository brings the code, data documentation, license information, and validation commands together using practices described for reusable scientific computing.[27]
 
 ## References
 
@@ -170,47 +170,39 @@ The assembly, validation, source-download, and retrieval scripts are available a
 
 14. Jiang, L. et al. SPIRIT-CONSORT-TM: a corpus for assessing transparency of clinical trial protocol and results publications. Sci. Data 12, 355 (2025). https://doi.org/10.1038/s41597-025-04629-1
 
-15. Yim, W.-w. et al. Aci-bench: a Novel Ambient Clinical Intelligence Dataset for Benchmarking Automatic Visit Note Generation. Sci. Data 10, 586 (2023). https://doi.org/10.1038/s41597-023-02487-3
+15. Wilkinson, M. D. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci. Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
 
-16. Niu, Z. et al. PharmaBench: Enhancing ADMET benchmarks with large language models. Sci. Data 11, 985 (2024). https://doi.org/10.1038/s41597-024-03793-0
+16. Gebru, T. et al. Datasheets for Datasets. Commun. ACM 64, 86–92 (2021). https://doi.org/10.1145/3458723
 
-17. Xiong, Y. et al. PCMR: a comprehensive precancerous molecular resource. Sci. Data 12, 551 (2025). https://doi.org/10.1038/s41597-025-04899-9
+17. Bender, E. M. & Friedman, B. Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science. Trans. Assoc. Comput. Linguist. 6, 587–604 (2018). https://doi.org/10.1162/tacl_a_00041
 
-18. Wilkinson, M. D. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci. Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
+18. US Food and Drug Administration. Multiple Function Device Products: Policy and Considerations. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/multiple-function-device-products-policy-and-considerations (2020).
 
-19. Sansone, S.-A. et al. FAIRsharing as a community approach to standards, repositories and policies. Nat. Biotechnol. 37, 358–367 (2019). https://doi.org/10.1038/s41587-019-0080-8
+19. Moreau, L. & Missier, P. (eds.) PROV-DM: The PROV Data Model. W3C Recommendation (2013). https://www.w3.org/TR/2013/REC-prov-dm-20130430/
 
-20. Gebru, T. et al. Datasheets for Datasets. Commun. ACM 64, 86–92 (2021). https://doi.org/10.1145/3458723
+20. Sandve, G. K., Nekrutenko, A., Taylor, J. & Hovig, E. Ten simple rules for reproducible computational research. PLoS Comput. Biol. 9, e1003285 (2013). https://doi.org/10.1371/journal.pcbi.1003285
 
-21. Bender, E. M. & Friedman, B. Data Statements for Natural Language Processing: Toward Mitigating System Bias and Enabling Better Science. Trans. Assoc. Comput. Linguist. 6, 587–604 (2018). https://doi.org/10.1162/tacl_a_00041
+21. Muehlematter, U. J., Bluethgen, C. & Vokinger, K. N. FDA-cleared artificial intelligence and machine learning-based medical devices and their 510(k) predicate networks. Lancet Digit. Health 5, e618–e626 (2023). https://doi.org/10.1016/S2589-7500(23)00126-7
 
-22. US Food and Drug Administration. Multiple Function Device Products: Policy and Considerations. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/multiple-function-device-products-policy-and-considerations (2020).
+22. Wang, G. et al. Clinical-function annotations for 1524 US artificial intelligence medical-device authorizations (v1.3.0). GitHub https://github.com/wang177777/fda-ai-clinical-function-annotations/releases/tag/v1.3.0 (2026).
 
-23. Moreau, L. & Missier, P. (eds.) PROV-DM: The PROV Data Model. W3C Recommendation (2013). https://www.w3.org/TR/2013/REC-prov-dm-20130430/
+23. Artstein, R. & Poesio, M. Inter-Coder Agreement for Computational Linguistics. Comput. Linguist. 34, 555–596 (2008). https://doi.org/10.1162/coli.07-034-R2
 
-24. Sandve, G. K., Nekrutenko, A., Taylor, J. & Hovig, E. Ten simple rules for reproducible computational research. PLoS Comput. Biol. 9, e1003285 (2013). https://doi.org/10.1371/journal.pcbi.1003285
+24. Diab, A. R. & Lotter, W. Distinguishing between Rigor and Transparency in FDA Marketing Authorization of AI-enabled Medical Devices. Radiol. Artif. Intell. 7, e250369 (2025). https://doi.org/10.1148/ryai.250369
 
-25. Muehlematter, U. J., Bluethgen, C. & Vokinger, K. N. FDA-cleared artificial intelligence and machine learning-based medical devices and their 510(k) predicate networks. Lancet Digit. Health 5, e618–e626 (2023). https://doi.org/10.1016/S2589-7500(23)00126-7
+25. Kapoor, S. & Narayanan, A. Leakage and the reproducibility crisis in machine-learning-based science. Patterns 4, 100804 (2023). https://doi.org/10.1016/j.patter.2023.100804
 
-26. Wang, G. et al. Clinical-function annotations for 1524 US artificial intelligence medical-device authorizations (v1.3.0). GitHub https://github.com/wang177777/fda-ai-clinical-function-annotations/releases/tag/v1.3.0 (2026).
+26. Cousijn, H. et al. A data citation roadmap for scientific publishers. Sci. Data 5, 180259 (2018). https://doi.org/10.1038/sdata.2018.259
 
-27. Artstein, R. & Poesio, M. Inter-Coder Agreement for Computational Linguistics. Comput. Linguist. 34, 555–596 (2008). https://doi.org/10.1162/coli.07-034-R2
+27. Wilson, G. et al. Good enough practices in scientific computing. PLoS Comput. Biol. 13, e1005510 (2017). https://doi.org/10.1371/journal.pcbi.1005510
 
-28. Diab, A. R. & Lotter, W. Distinguishing between Rigor and Transparency in FDA Marketing Authorization of AI-enabled Medical Devices. Radiol. Artif. Intell. 7, e250369 (2025). https://doi.org/10.1148/ryai.250369
+28. LabStyle Innovation Ltd. 510(k) Summary [Dario Blood Glucose Monitoring System; K150817]. https://www.accessdata.fda.gov/cdrh_docs/pdf15/K150817.pdf (2015).
 
-29. Kapoor, S. & Narayanan, A. Leakage and the reproducibility crisis in machine-learning-based science. Patterns 4, 100804 (2023). https://doi.org/10.1016/j.patter.2023.100804
+29. Arterys Inc. Section 5. 510(k) Summary [Arterys MICA; K182034]. https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182034.pdf (2018).
 
-30. Cousijn, H. et al. A data citation roadmap for scientific publishers. Sci. Data 5, 180259 (2018). https://doi.org/10.1038/sdata.2018.259
+30. WellDoc, Inc. K190013 510(k) Summary [WellDoc BlueStar]. https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190013.pdf (2019).
 
-31. Wilson, G. et al. Good enough practices in scientific computing. PLoS Comput. Biol. 13, e1005510 (2017). https://doi.org/10.1371/journal.pcbi.1005510
-
-32. LabStyle Innovation Ltd. 510(k) Summary [Dario Blood Glucose Monitoring System; K150817]. https://www.accessdata.fda.gov/cdrh_docs/pdf15/K150817.pdf (2015).
-
-33. Arterys Inc. Section 5. 510(k) Summary [Arterys MICA; K182034]. https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182034.pdf (2018).
-
-34. WellDoc, Inc. K190013 510(k) Summary [WellDoc BlueStar]. https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190013.pdf (2019).
-
-35. US Food and Drug Administration. 510(k) Substantial Equivalence Determination Decision Summary [K182513: FluChip-8G Influenza A+B Assay]. https://www.accessdata.fda.gov/cdrh_docs/reviews/K182513.pdf (2019).
+31. US Food and Drug Administration. 510(k) Substantial Equivalence Determination Decision Summary [K182513: FluChip-8G Influenza A+B Assay]. https://www.accessdata.fda.gov/cdrh_docs/reviews/K182513.pdf (2019).
 
 ## Funding
 
@@ -260,7 +252,7 @@ Each row covers 1524 authorizations. A dash indicates a state that is inapplicab
 | K190013, WellDoc BlueStar | K190013.pdf; 4, 6, 10 | Scope: AI attribution unresolved. First five fields: NOT_ASSESSABLE. Grouping: UNCERTAIN. | Coaching and prescription-based dose calculation are described at device level. Confirmed coding retains unresolved function-specific AI attribution; earlier device-level labels remain in the version records. |
 | K182513, FluChip-8G Influenza A+B Assay | reviews/K182513.pdf; 8–9 | Input: LAB_SPECIMEN_OR_OMICS; output: CLASSIFICATION_OR_DIAGNOSIS; grouping: SINGLE | Internal neural networks contribute to one integrated influenza-classification function. |
 
-The examples illustrate attribution, output-category, and function-grouping decisions in the versioned release. Sources, in row order: the Dario 510(k) summary,[32] Arterys MICA 510(k) summary,[33] BlueStar 510(k) summary,[34] and FluChip-8G FDA decision summary.[35] Page numbers count physical PDF pages from one.
+The examples illustrate attribution, output-category, and function-grouping decisions in the versioned release. Sources, in row order: the Dario 510(k) summary,[28] Arterys MICA 510(k) summary,[29] BlueStar 510(k) summary,[30] and FluChip-8G FDA decision summary.[31] Page numbers count physical PDF pages from one.
 
 ## Figure legends
 
