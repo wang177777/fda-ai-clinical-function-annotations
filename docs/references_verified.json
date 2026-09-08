@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-09-08",
-  "manuscript_revision": "manuscript-2026-09-08-r3",
+  "checked_at": "2026-09-09",
+  "manuscript_revision": "manuscript-2026-09-09-r4",
   "dataset_version": "1.3.0",
   "reference_count": 31,
   "references": [
@@ -12,7 +12,16 @@
       "primary_source_urls": [
         "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices"
       ],
-      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review."
+      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社或官方存档的正文相关段落及书目信息",
+        "primary_source_urls": [
+          "https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices"
+        ],
+        "support_note": "恰当支持定位公开记录的用途。当前网页已更新，历史1524条队列应由归档快照支持，不能用当前滚动网页数目替代。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 2,
@@ -23,7 +32,17 @@
         "https://www.nature.com/articles/s41746-020-00324-0",
         "https://pubmed.ncbi.nlm.nih.gov/32984550/"
       ],
-      "verification_source": "fda_reference_candidates.json:FDA_BENJAMENS_2020"
+      "verification_source": "fda_reference_candidates.json:FDA_BENJAMENS_2020",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社或官方存档的正文相关段落及书目信息",
+        "primary_source_urls": [
+          "https://www.nature.com/articles/s41746-020-00324-0",
+          "https://pubmed.ncbi.nlm.nih.gov/32984550/"
+        ],
+        "support_note": "原研究整理并交叉核实AI/ML器械数据库，现句没有夸大完整性或沿用其审批术语。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 3,
@@ -35,7 +54,18 @@
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC8054073/",
         "https://doi.org/10.1136/bmjhci-2020-100301"
       ],
-      "verification_source": "fda_reference_candidates.json:FDA_LYELL_2021"
+      "verification_source": "fda_reference_candidates.json:FDA_LYELL_2021",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社或官方存档的正文相关段落及书目信息",
+        "primary_source_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/33853863/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8054073/",
+          "https://doi.org/10.1136/bmjhci-2020-100301"
+        ],
+        "support_note": "直接支持三个构念；可单独承接临床任务、输入和输出描述，使[3,4]的共同概括更清楚。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 4,
@@ -45,7 +75,16 @@
       "primary_source_urls": [
         "https://www.nature.com/articles/s41746-025-01800-1"
       ],
-      "verification_source": "fda_reference_candidates.json:EXISTING_SINGH_2025"
+      "verification_source": "fda_reference_candidates.json:EXISTING_SINGH_2025",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社或官方存档的正文相关段落及书目信息",
+        "primary_source_urls": [
+          "https://www.nature.com/articles/s41746-025-01800-1"
+        ],
+        "support_note": "原句作为两篇研究的合并概括可以成立，但Singh的核心维度不是独立的output字段。拆开能避免读者误以为两项研究使用相同字段。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 5,
@@ -55,7 +94,16 @@
       "primary_source_urls": [
         "https://www.nature.com/articles/s41746-024-01080-1"
       ],
-      "verification_source": "fda_reference_candidates.json:EXISTING_MCNAMARA_2024"
+      "verification_source": "fda_reference_candidates.json:EXISTING_MCNAMARA_2024",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社或官方存档的正文相关段落及书目信息",
+        "primary_source_urls": [
+          "https://www.nature.com/articles/s41746-024-01080-1"
+        ],
+        "support_note": "来源限于影像解释器械，现句已正确标明 imaging-focused；intended use及临床用户界面在研究中均直接分析。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 6,
@@ -66,7 +114,17 @@
         "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2806839",
         "https://pubmed.ncbi.nlm.nih.gov/37405771/"
       ],
-      "verification_source": "fda_reference_candidates.json:FDA_MARKETING_CLARK_2023"
+      "verification_source": "fda_reference_candidates.json:FDA_MARKETING_CLARK_2023",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社全文中的结论、局限与文章信息；未重新逐项复查该文全部器械实例",
+        "primary_source_urls": [
+          "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2806839",
+          "https://pubmed.ncbi.nlm.nih.gov/37405771/"
+        ],
+        "support_note": "现句只陈述描述可能不同，没有推断厂商欺诈、器械实际缺少AI或不安全。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 7,
@@ -77,7 +135,17 @@
         "https://www.nature.com/articles/s41746-024-01270-x",
         "https://pubmed.ncbi.nlm.nih.gov/39362934/"
       ],
-      "verification_source": "fda_reference_candidates.json:FDA_REPORTING_GAPS_2024"
+      "verification_source": "fda_reference_candidates.json:FDA_REPORTING_GAPS_2024",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社或官方存档的正文相关段落及书目信息",
+        "primary_source_urls": [
+          "https://www.nature.com/articles/s41746-024-01270-x",
+          "https://pubmed.ncbi.nlm.nih.gov/39362934/"
+        ],
+        "support_note": "支持公开文件报告内容存在差异。other attributes较笼统，可具体化为人口学信息；不把公开报告缺失当作实际试验未做。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 8,
@@ -88,7 +156,17 @@
         "https://www.nature.com/articles/s41746-026-02407-w",
         "https://pubmed.ncbi.nlm.nih.gov/41673095/"
       ],
-      "verification_source": "fda_reference_candidates.json:FDA_DATABASES_ONG_2026"
+      "verification_source": "fda_reference_candidates.json:FDA_DATABASES_ONG_2026",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社或官方存档的正文相关段落及书目信息",
+        "primary_source_urls": [
+          "https://www.nature.com/articles/s41746-026-02407-w",
+          "https://pubmed.ncbi.nlm.nih.gov/41673095/"
+        ],
+        "support_note": "三个优先方向在来源中均有明确依据，但唯一引文是Perspective，复数analyses容易让读者误认成多项实证分析。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 9,
@@ -98,7 +176,18 @@
       "primary_source_urls": [
         "https://www.fda.gov/medical-devices/software-medical-device-samd/transparency-machine-learning-enabled-medical-devices-guiding-principles"
       ],
-      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review."
+      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社或官方存档的正文相关段落及书目信息",
+        "primary_source_urls": [
+          "https://www.fda.gov/medical-devices/software-medical-device-samd/transparency-machine-learning-enabled-medical-devices-guiding-principles",
+          "https://www.fda.gov/medical-devices/medical-devices-news-and-events/cdrh-issues-guiding-principles-transparency-machine-learning-enabled-medical-devices",
+          "https://www.fda.gov/media/179269/download"
+        ],
+        "support_note": "支持列出的全部概念，且是六字段研究背景的直接一手依据。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 10,
@@ -109,7 +198,17 @@
         "https://academic.oup.com/jamia/article/27/12/2011/5864179",
         "https://pubmed.ncbi.nlm.nih.gov/32594179/"
       ],
-      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review."
+      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社或官方存档的正文相关段落及书目信息",
+        "primary_source_urls": [
+          "https://academic.oup.com/jamia/article/27/12/2011/5864179",
+          "https://pubmed.ncbi.nlm.nih.gov/32594179/"
+        ],
+        "support_note": "原句准确概括最低信息倡议的两项相关内容。没有声称本研究遵循完整MINIMAR，也没有将它写成专门的FDA器械标注指南。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 11,
@@ -119,7 +218,17 @@
       "primary_source_urls": [
         "https://www.nature.com/articles/s41591-022-01772-9"
       ],
-      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review."
+      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "直接打开返回内部错误；本轮通过检索工具读取同一出版社原文的索引正文，包括Main、Recommendations、Discussion和书目信息，非仅题名或摘要",
+        "primary_source_urls": [
+          "https://www.nature.com/articles/s41591-022-01772-9",
+          "https://doi.org/10.1038/s41591-022-01772-9"
+        ],
+        "support_note": "构念与阶段均准确；可加live限定使其与模拟评估区分，但当前没有过度泛化。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 12,
@@ -129,7 +238,16 @@
       "primary_source_urls": [
         "https://www.nature.com/articles/s41746-026-02353-7"
       ],
-      "verification_source": "fda_reference_candidates.json:EXISTING_LI_2026"
+      "verification_source": "fda_reference_candidates.json:EXISTING_LI_2026",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社或官方存档的正文相关段落及书目信息",
+        "primary_source_urls": [
+          "https://www.nature.com/articles/s41746-026-02353-7"
+        ],
+        "support_note": "现句仅说明已有应用，有直接实证支持；没有转移其他研究的准确率或人类复核流程至本数据集。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 13,
@@ -140,7 +258,17 @@
         "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag117/8766582",
         "https://pubmed.ncbi.nlm.nih.gov/42616679/"
       ],
-      "verification_source": "fda_reference_candidates.json:EXISTING_SMART_2026"
+      "verification_source": "fda_reference_candidates.json:EXISTING_SMART_2026",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本轮读取出版社或官方存档的正文相关段落及书目信息",
+        "primary_source_urls": [
+          "https://academic.oup.com/jamia/advance-article/doi/10.1093/jamia/ocag117/8766582",
+          "https://pubmed.ncbi.nlm.nih.gov/42616679/"
+        ],
+        "support_note": "框架包含临床情境字段、OMOP队列描述、性能报告和版本历史等。当前简短句支持充分。2026-08-19发表，ocag117，仍未分配卷页，现引用不应补造。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 14,
@@ -150,7 +278,16 @@
       "primary_source_urls": [
         "https://www.nature.com/articles/s41597-025-04629-1"
       ],
-      "verification_source": "resource_reference_candidates.json:R01_SPIRIT_CONSORT_TM"
+      "verification_source": "resource_reference_candidates.json:R01_SPIRIT_CONSORT_TM",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "出版社直接打开内部错误，PMC直接打开验证页；本轮实际读取出版社检索索引中的完整相关方法段落与书目，未声称成功直接打开全部全文",
+        "primary_source_urls": [
+          "https://www.nature.com/articles/s41597-025-04629-1"
+        ],
+        "support_note": "多层级表述支持，但clinical-trial annotations略泛，原文标注对象是试验方案和结果论文中的报告条目，三层分别为article、sentence、term。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 15,
@@ -160,7 +297,17 @@
       "primary_source_urls": [
         "https://doi.org/10.1038/sdata.2016.18"
       ],
-      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review."
+      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "带点号旧URL直接打开失败；本轮实际读取出版社规范URL检索索引中的Box 2及相关正文，不是只读元数据",
+        "primary_source_urls": [
+          "https://www.nature.com/articles/sdata201618",
+          "https://doi.org/10.1038/sdata.2016.18"
+        ],
+        "support_note": "支持标识符、元数据和来源记录促进复用的原则性论点。当前措辞没有声称通过正式FAIR认证。字典、版本记录属于实现层面的对应，不等同于全面满足FAIR。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 16,
@@ -171,7 +318,17 @@
         "https://www.microsoft.com/en-us/research/publication/datasheets-for-datasets/",
         "https://arxiv.org/pdf/1803.09010"
       ],
-      "verification_source": "resource_reference_candidates.json:R05_DATASHEETS"
+      "verification_source": "resource_reference_candidates.json:R05_DATASHEETS",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "作者所在研究机构出版记录；作者存档v8 §3.2 Composition、§3.3 Collection Process。",
+        "primary_source_urls": [
+          "https://www.microsoft.com/en-us/research/publication/datasheets-for-datasets/",
+          "https://arxiv.org/html/1803.09010v8"
+        ],
+        "support_note": "Datasheets分别询问实例所代表对象、样本选择、标签与收集流程。支持观察单位和选择过程的明确记录。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 17,
@@ -181,7 +338,17 @@
       "primary_source_urls": [
         "https://aclanthology.org/Q18-1041.pdf"
       ],
-      "verification_source": "resource_reference_candidates.json:R06_DATA_STATEMENTS"
+      "verification_source": "resource_reference_candidates.json:R06_DATA_STATEMENTS",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "出版社托管PDF首页、§5.1 Curation Rationale、Annotator Demographic、Speech Situation。",
+        "primary_source_urls": [
+          "https://aclanthology.org/Q18-1041/",
+          "https://aclanthology.org/Q18-1041.pdf"
+        ],
+        "support_note": "Data Statements关注文本的收集目的、语言与标注者背景及语境如何影响泛化。支持文本语境记录，但并未专门规定FDA授权观察单位。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 18,
@@ -191,7 +358,16 @@
       "primary_source_urls": [
         "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/multiple-function-device-products-policy-and-considerations"
       ],
-      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review."
+      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "FDA指导文件网页题名、July 2020日期、定义及适用范围。",
+        "primary_source_urls": [
+          "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/multiple-function-device-products-policy-and-considerations"
+        ],
+        "support_note": "FDA文件讨论至少一种device function和至少一种other function，重点是非本次审查功能对被审查功能的影响。本文临床功能分组不是该监管分类。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 19,
@@ -201,7 +377,16 @@
       "primary_source_urls": [
         "https://www.w3.org/TR/2013/REC-prov-dm-20130430/"
       ],
-      "verification_source": "resource_reference_candidates.json:R09_PROV_DM"
+      "verification_source": "resource_reference_candidates.json:R09_PROV_DM",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "W3C文档头（2013-04-30及编辑）、摘要、§2.2.1.1及§5.2.2 Revision。",
+        "primary_source_urls": [
+          "https://www.w3.org/TR/2013/REC-prov-dm-20130430/"
+        ],
+        "support_note": "PROV-DM定义实体间派生关系，并把修订定义为保留原始内容的派生类型；能够表达来源及前后版本关系。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 20,
@@ -211,7 +396,16 @@
       "primary_source_urls": [
         "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285"
       ],
-      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review."
+      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "出版社作者与引用栏；Rule 1（全过程、输入参数与可执行工作流）。",
+        "primary_source_urls": [
+          "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285"
+        ],
+        "support_note": "该文主张保留产生结果的完整步骤、输入和参数，并以可执行流程支持重新运行。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 21,
@@ -222,7 +416,17 @@
         "https://pubmed.ncbi.nlm.nih.gov/37625896/",
         "https://doi.org/10.1016/S2589-7500(23)00126-7"
       ],
-      "verification_source": "fda_reference_candidates.json:FDA_PREDICATE_2023"
+      "verification_source": "fda_reference_candidates.json:FDA_PREDICATE_2023",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "PubMed所载原始论文完整摘要和作者/卷页/DOI元信息；出版社页面本次未取到全文；作者机构PDF入口重定向404，不据此声称已读全文。",
+        "primary_source_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/37625896/",
+          "https://doi.org/10.1016/S2589-7500(23)00126-7"
+        ],
+        "support_note": "该研究分析2019–2021获批AI/ML器械的510(k) predicate网络，发现任务可沿网络发生改变；其研究对象为predicate关系。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 22,
@@ -232,7 +436,17 @@
       "primary_source_urls": [
         "https://github.com/wang177777/fda-ai-clinical-function-annotations/releases/tag/v1.3.0"
       ],
-      "verification_source": "Published v1.3.0 release and dataset CITATION.cff; no DOI assigned."
+      "verification_source": "Published v1.3.0 release and dataset CITATION.cff; no DOI assigned.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "本次通过公开GitHub API重新读取发布元信息；本地CITATION.cff与旧发布核验记录互核。",
+        "primary_source_urls": [
+          "https://github.com/wang177777/fda-ai-clinical-function-annotations/releases/tag/v1.3.0",
+          "https://api.github.com/repos/wang177777/fda-ai-clinical-function-annotations/releases/tags/v1.3.0"
+        ],
+        "support_note": "公开API返回v1.3.0、非draft、非prerelease、2026-09-08发布、9项assets；CITATION.cff题名及作者与末尾数据引用相符。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 23,
@@ -242,7 +456,17 @@
       "primary_source_urls": [
         "https://aclanthology.org/J08-4004.pdf"
       ],
-      "verification_source": "resource_reference_candidates.json:R08_INTERCODER_AGREEMENT"
+      "verification_source": "resource_reference_candidates.json:R08_INTERCODER_AGREEMENT",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "出版社托管PDF首页、§2.3（期刊558页）、574–575页的独立编码要求、§5.3；ACL条目元信息。",
+        "primary_source_urls": [
+          "https://aclanthology.org/J08-4004/",
+          "https://aclanthology.org/J08-4004.pdf"
+        ],
+        "support_note": "一致性计算来自各编码者对同一项目的分别判断；用于评估可重复性的编码应独立完成。讨论后共识不能替代这些判断。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 24,
@@ -253,7 +477,16 @@
         "https://pubmed.ncbi.nlm.nih.gov/40990637/",
         "https://doi.org/10.1148/ryai.250369"
       ],
-      "verification_source": "fda_reference_candidates.json:FDA_RIGOR_TRANSPARENCY_2025"
+      "verification_source": "fda_reference_candidates.json:FDA_RIGOR_TRANSPARENCY_2025",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "出版社公开摘要、作者/卷期/DOI与发表日期；公开Figure 1说明；未访问付费正文。",
+        "primary_source_urls": [
+          "https://pubs.rsna.org/doi/10.1148/ryai.250369"
+        ],
+        "support_note": "原文直接区分评价证据的质量/充分性与这些证据的公开可见程度。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 25,
@@ -264,7 +497,17 @@
         "https://www.sciencedirect.com/science/article/pii/S2666389923001599",
         "https://collaborate.princeton.edu/en/publications/leakage-and-the-reproducibility-crisis-in-machine-learning-based-/"
       ],
-      "verification_source": "resource_reference_candidates.json:R11_LEAKAGE"
+      "verification_source": "resource_reference_candidates.json:R11_LEAKAGE",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "出版社检索呈现的摘要与引言；NSF作者存档PDF题名页、L1.4 Duplicates及L3.2 Nonindependence段落。",
+        "primary_source_urls": [
+          "https://www.sciencedirect.com/science/article/pii/S2666389923001599",
+          "https://par.nsf.gov/servlets/purl/10513990"
+        ],
+        "support_note": "重复样本或训练测试依赖若不符合目标泛化分布，可使模型评估过于乐观；数据划分需要考虑这种依赖。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 26,
@@ -274,7 +517,16 @@
       "primary_source_urls": [
         "https://www.nature.com/articles/sdata2018259"
       ],
-      "verification_source": "resource_reference_candidates.json:R10_DATA_CITATION"
+      "verification_source": "resource_reference_candidates.json:R10_DATA_CITATION",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "出版社元信息；Pre-submission的数据引用要素；Submission and review；Discussion。",
+        "primary_source_urls": [
+          "https://www.nature.com/articles/sdata2018259"
+        ],
+        "support_note": "该文把版本、作者、题名、年份、仓库和持久标识列为数据引用要素，并要求正文与参考文献表均记录所用数据。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 27,
@@ -284,7 +536,16 @@
       "primary_source_urls": [
         "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510"
       ],
-      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review."
+      "verification_source": "Primary-source metadata and supporting passages checked during the 2026-09-08 reference review.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "出版社作者与Citation栏；Collaboration中README、dependencies/tests、licenses和CITATION；Project organization/Box 3。",
+        "primary_source_urls": [
+          "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510"
+        ],
+        "support_note": "文章建议明确README与运行依赖/测试方法、数据文本及软件许可证、CITATION和一致的目录结构。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 28,
@@ -294,7 +555,16 @@
       "primary_source_urls": [
         "https://www.accessdata.fda.gov/cdrh_docs/pdf15/K150817.pdf"
       ],
-      "verification_source": "fda_primary_document_citations.json; retained original PDF metadata and document headings."
+      "verification_source": "fda_primary_document_citations.json; retained original PDF metadata and document headings.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "原始PDF全部所引物理页；详见页级记录",
+        "primary_source_urls": [
+          "https://www.accessdata.fda.gov/cdrh_docs/pdf15/K150817.pdf"
+        ],
+        "support_note": "所引页支持器械描述与内部算法这一事实；NOT_ASSESSABLE及UNCERTAIN是研究中对AI归属的判断，不能说成FDA已宣布不存在AI或算法。原解释并非错引，但省略internal algorithm易掩盖实际判定边界。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 29,
@@ -304,7 +574,16 @@
       "primary_source_urls": [
         "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182034.pdf"
       ],
-      "verification_source": "fda_primary_document_citations.json; retained original PDF metadata and document headings."
+      "verification_source": "fda_primary_document_citations.json; retained original PDF metadata and document headings.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "原始PDF全部所引物理页；详见页级记录",
+        "primary_source_urls": [
+          "https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182034.pdf"
+        ],
+        "support_note": "物理页码准确，附加输出类别可由subject列直接追溯。将心脏与肿瘤模块编码为MULTIPLE是本研究临床功能定义的应用，不是原文的监管分类。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 30,
@@ -314,7 +593,16 @@
       "primary_source_urls": [
         "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190013.pdf"
       ],
-      "verification_source": "fda_primary_document_citations.json; retained original PDF metadata and document headings."
+      "verification_source": "fda_primary_document_citations.json; retained original PDF metadata and document headings.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "原始PDF全部所引物理页；详见页级记录",
+        "primary_source_urls": [
+          "https://www.accessdata.fda.gov/cdrh_docs/pdf19/K190013.pdf"
+        ],
+        "support_note": "辅导与按处方方案计算剂量的描述均直接支持。源页并未将这些功能明确归属到一个AI功能，研究保留未解决AI归属；原表已将confirmed coding与device-level description区分。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     },
     {
       "number": 31,
@@ -324,7 +612,16 @@
       "primary_source_urls": [
         "https://www.accessdata.fda.gov/cdrh_docs/reviews/K182513.pdf"
       ],
-      "verification_source": "fda_primary_document_citations.json; retained original PDF metadata and document headings."
+      "verification_source": "fda_primary_document_citations.json; retained original PDF metadata and document headings.",
+      "current_audit": {
+        "date": "2026-09-09",
+        "read_scope": "原始PDF全部所引物理页；详见页级记录",
+        "primary_source_urls": [
+          "https://www.accessdata.fda.gov/cdrh_docs/reviews/K182513.pdf"
+        ],
+        "support_note": "输入信号和分类输出在8–9页直接支持；single是作者以临床任务为单位的分组判断，不是FDA给出的术语。多网络不能直接等同多临床功能。",
+        "manuscript_revision": "manuscript-2026-09-09-r4"
+      }
     }
   ],
   "citation_placements": [
@@ -332,80 +629,85 @@
       "keys": [
         "fda_list"
       ],
-      "context_with_keys": "Public regulatory documents describe the clinical functions of artificial intelligence (AI)–enabled medical devices through submission summaries, decision documents, and intended-use statements. The US Food and Drug Administration (FDA) list provides submission identifiers for locating these records.{cite:fda_list} Early work catalogued AI-enabled devices.{cite:benjamens} Subsequent studies characterized clinical tasks, inputs, and outputs.{cite:lyell,singh} Imaging-focused work examined intended use and clinician-facing interfaces.{cite:mcnamara}"
+      "context_with_keys": "Public regulatory documents describe the clinical functions of artificial intelligence (AI)–enabled medical devices through submission summaries, decision documents, and intended-use statements. The US Food and Drug Administration (FDA) list provides submission identifiers for locating these records.{cite:fda_list} Early work catalogued AI-enabled devices.{cite:benjamens} Lyell et al. characterized clinical tasks, device inputs, and outputs.{cite:lyell} Singh et al. classified clinical functions, AI functions, and input data types across 1016 authorizations.{cite:singh} Imaging-focused work examined intended use and clinician-facing interfaces.{cite:mcnamara}"
     },
     {
       "keys": [
         "benjamens"
       ],
-      "context_with_keys": "Public regulatory documents describe the clinical functions of artificial intelligence (AI)–enabled medical devices through submission summaries, decision documents, and intended-use statements. The US Food and Drug Administration (FDA) list provides submission identifiers for locating these records.{cite:fda_list} Early work catalogued AI-enabled devices.{cite:benjamens} Subsequent studies characterized clinical tasks, inputs, and outputs.{cite:lyell,singh} Imaging-focused work examined intended use and clinician-facing interfaces.{cite:mcnamara}"
+      "context_with_keys": "Public regulatory documents describe the clinical functions of artificial intelligence (AI)–enabled medical devices through submission summaries, decision documents, and intended-use statements. The US Food and Drug Administration (FDA) list provides submission identifiers for locating these records.{cite:fda_list} Early work catalogued AI-enabled devices.{cite:benjamens} Lyell et al. characterized clinical tasks, device inputs, and outputs.{cite:lyell} Singh et al. classified clinical functions, AI functions, and input data types across 1016 authorizations.{cite:singh} Imaging-focused work examined intended use and clinician-facing interfaces.{cite:mcnamara}"
     },
     {
       "keys": [
-        "lyell",
+        "lyell"
+      ],
+      "context_with_keys": "Public regulatory documents describe the clinical functions of artificial intelligence (AI)–enabled medical devices through submission summaries, decision documents, and intended-use statements. The US Food and Drug Administration (FDA) list provides submission identifiers for locating these records.{cite:fda_list} Early work catalogued AI-enabled devices.{cite:benjamens} Lyell et al. characterized clinical tasks, device inputs, and outputs.{cite:lyell} Singh et al. classified clinical functions, AI functions, and input data types across 1016 authorizations.{cite:singh} Imaging-focused work examined intended use and clinician-facing interfaces.{cite:mcnamara}"
+    },
+    {
+      "keys": [
         "singh"
       ],
-      "context_with_keys": "Public regulatory documents describe the clinical functions of artificial intelligence (AI)–enabled medical devices through submission summaries, decision documents, and intended-use statements. The US Food and Drug Administration (FDA) list provides submission identifiers for locating these records.{cite:fda_list} Early work catalogued AI-enabled devices.{cite:benjamens} Subsequent studies characterized clinical tasks, inputs, and outputs.{cite:lyell,singh} Imaging-focused work examined intended use and clinician-facing interfaces.{cite:mcnamara}"
+      "context_with_keys": "Public regulatory documents describe the clinical functions of artificial intelligence (AI)–enabled medical devices through submission summaries, decision documents, and intended-use statements. The US Food and Drug Administration (FDA) list provides submission identifiers for locating these records.{cite:fda_list} Early work catalogued AI-enabled devices.{cite:benjamens} Lyell et al. characterized clinical tasks, device inputs, and outputs.{cite:lyell} Singh et al. classified clinical functions, AI functions, and input data types across 1016 authorizations.{cite:singh} Imaging-focused work examined intended use and clinician-facing interfaces.{cite:mcnamara}"
     },
     {
       "keys": [
         "mcnamara"
       ],
-      "context_with_keys": "Public regulatory documents describe the clinical functions of artificial intelligence (AI)–enabled medical devices through submission summaries, decision documents, and intended-use statements. The US Food and Drug Administration (FDA) list provides submission identifiers for locating these records.{cite:fda_list} Early work catalogued AI-enabled devices.{cite:benjamens} Subsequent studies characterized clinical tasks, inputs, and outputs.{cite:lyell,singh} Imaging-focused work examined intended use and clinician-facing interfaces.{cite:mcnamara}"
+      "context_with_keys": "Public regulatory documents describe the clinical functions of artificial intelligence (AI)–enabled medical devices through submission summaries, decision documents, and intended-use statements. The US Food and Drug Administration (FDA) list provides submission identifiers for locating these records.{cite:fda_list} Early work catalogued AI-enabled devices.{cite:benjamens} Lyell et al. characterized clinical tasks, device inputs, and outputs.{cite:lyell} Singh et al. classified clinical functions, AI functions, and input data types across 1016 authorizations.{cite:singh} Imaging-focused work examined intended use and clinician-facing interfaces.{cite:mcnamara}"
     },
     {
       "keys": [
         "clark"
       ],
-      "context_with_keys": "Extracted descriptions depend on the source. Marketing material and FDA records can differ in their AI-related descriptions.{cite:clark} Public regulatory documents also vary in their reporting of device evaluation and other attributes.{cite:gaps} Recent analyses of regulatory databases identify searchable descriptions, structured metadata, and links between device versions as priorities.{cite:ong}"
+      "context_with_keys": "Extracted descriptions depend on the source. Marketing material and FDA records can differ in their AI-related descriptions.{cite:clark} Public regulatory documents also vary in their reporting of device evaluation and population characteristics.{cite:gaps} A recent perspective on regulatory databases identifies searchable descriptions, structured metadata, and links between device versions as priorities.{cite:ong}"
     },
     {
       "keys": [
         "gaps"
       ],
-      "context_with_keys": "Extracted descriptions depend on the source. Marketing material and FDA records can differ in their AI-related descriptions.{cite:clark} Public regulatory documents also vary in their reporting of device evaluation and other attributes.{cite:gaps} Recent analyses of regulatory databases identify searchable descriptions, structured metadata, and links between device versions as priorities.{cite:ong}"
+      "context_with_keys": "Extracted descriptions depend on the source. Marketing material and FDA records can differ in their AI-related descriptions.{cite:clark} Public regulatory documents also vary in their reporting of device evaluation and population characteristics.{cite:gaps} A recent perspective on regulatory databases identifies searchable descriptions, structured metadata, and links between device versions as priorities.{cite:ong}"
     },
     {
       "keys": [
         "ong"
       ],
-      "context_with_keys": "Extracted descriptions depend on the source. Marketing material and FDA records can differ in their AI-related descriptions.{cite:clark} Public regulatory documents also vary in their reporting of device evaluation and other attributes.{cite:gaps} Recent analyses of regulatory databases identify searchable descriptions, structured metadata, and links between device versions as priorities.{cite:ong}"
+      "context_with_keys": "Extracted descriptions depend on the source. Marketing material and FDA records can differ in their AI-related descriptions.{cite:clark} Public regulatory documents also vary in their reporting of device evaluation and population characteristics.{cite:gaps} A recent perspective on regulatory databases identifies searchable descriptions, structured metadata, and links between device versions as priorities.{cite:ong}"
     },
     {
       "keys": [
         "transparency"
       ],
-      "context_with_keys": "Clinical-function descriptions need to place outputs within their intended use context. Joint FDA, Health Canada, and Medicines and Healthcare products Regulatory Agency transparency principles address users, inputs and outputs, use environments, and the role of device information in decisions.{cite:transparency} MINIMAR addresses intended predictions and the populations in which systems are developed and evaluated.{cite:minimar} DECIDE-AI emphasizes workflow and human interaction during early clinical evaluation.{cite:decide}"
+      "context_with_keys": "Clinical-function descriptions need to place outputs within their intended use context. Joint FDA, Health Canada, and Medicines and Healthcare products Regulatory Agency transparency principles address users, inputs and outputs, use environments, and the role of device information in decisions.{cite:transparency} MINIMAR addresses intended predictions and the populations in which systems are developed and evaluated.{cite:minimar} DECIDE-AI emphasizes workflow and human interaction during early, live clinical evaluation.{cite:decide}"
     },
     {
       "keys": [
         "minimar"
       ],
-      "context_with_keys": "Clinical-function descriptions need to place outputs within their intended use context. Joint FDA, Health Canada, and Medicines and Healthcare products Regulatory Agency transparency principles address users, inputs and outputs, use environments, and the role of device information in decisions.{cite:transparency} MINIMAR addresses intended predictions and the populations in which systems are developed and evaluated.{cite:minimar} DECIDE-AI emphasizes workflow and human interaction during early clinical evaluation.{cite:decide}"
+      "context_with_keys": "Clinical-function descriptions need to place outputs within their intended use context. Joint FDA, Health Canada, and Medicines and Healthcare products Regulatory Agency transparency principles address users, inputs and outputs, use environments, and the role of device information in decisions.{cite:transparency} MINIMAR addresses intended predictions and the populations in which systems are developed and evaluated.{cite:minimar} DECIDE-AI emphasizes workflow and human interaction during early, live clinical evaluation.{cite:decide}"
     },
     {
       "keys": [
         "decide"
       ],
-      "context_with_keys": "Clinical-function descriptions need to place outputs within their intended use context. Joint FDA, Health Canada, and Medicines and Healthcare products Regulatory Agency transparency principles address users, inputs and outputs, use environments, and the role of device information in decisions.{cite:transparency} MINIMAR addresses intended predictions and the populations in which systems are developed and evaluated.{cite:minimar} DECIDE-AI emphasizes workflow and human interaction during early clinical evaluation.{cite:decide}"
+      "context_with_keys": "Clinical-function descriptions need to place outputs within their intended use context. Joint FDA, Health Canada, and Medicines and Healthcare products Regulatory Agency transparency principles address users, inputs and outputs, use environments, and the role of device information in decisions.{cite:transparency} MINIMAR addresses intended predictions and the populations in which systems are developed and evaluated.{cite:minimar} DECIDE-AI emphasizes workflow and human interaction during early, live clinical evaluation.{cite:decide}"
     },
     {
       "keys": [
         "li"
       ],
-      "context_with_keys": "Large language models have been used to extract attributes from regulatory documents.{cite:li} SMART organizes documentation of clinical AI systems into a structured framework.{cite:smart} SPIRIT-CONSORT-TM links clinical-trial annotations to text at multiple levels.{cite:spirit} Applying structured annotation to regulatory documents also requires determining whether a passage describes the whole device or an AI-related function."
+      "context_with_keys": "Large language models have been used to extract attributes from regulatory documents.{cite:li} SMART organizes documentation of clinical AI systems into a structured framework.{cite:smart} SPIRIT-CONSORT-TM annotates reporting items in clinical-trial protocols and results publications at article, sentence, and term levels.{cite:spirit} Applying structured annotation to regulatory documents also requires determining whether a passage describes the whole device or an AI-related function."
     },
     {
       "keys": [
         "smart"
       ],
-      "context_with_keys": "Large language models have been used to extract attributes from regulatory documents.{cite:li} SMART organizes documentation of clinical AI systems into a structured framework.{cite:smart} SPIRIT-CONSORT-TM links clinical-trial annotations to text at multiple levels.{cite:spirit} Applying structured annotation to regulatory documents also requires determining whether a passage describes the whole device or an AI-related function."
+      "context_with_keys": "Large language models have been used to extract attributes from regulatory documents.{cite:li} SMART organizes documentation of clinical AI systems into a structured framework.{cite:smart} SPIRIT-CONSORT-TM annotates reporting items in clinical-trial protocols and results publications at article, sentence, and term levels.{cite:spirit} Applying structured annotation to regulatory documents also requires determining whether a passage describes the whole device or an AI-related function."
     },
     {
       "keys": [
         "spirit"
       ],
-      "context_with_keys": "Large language models have been used to extract attributes from regulatory documents.{cite:li} SMART organizes documentation of clinical AI systems into a structured framework.{cite:smart} SPIRIT-CONSORT-TM links clinical-trial annotations to text at multiple levels.{cite:spirit} Applying structured annotation to regulatory documents also requires determining whether a passage describes the whole device or an AI-related function."
+      "context_with_keys": "Large language models have been used to extract attributes from regulatory documents.{cite:li} SMART organizes documentation of clinical AI systems into a structured framework.{cite:smart} SPIRIT-CONSORT-TM annotates reporting items in clinical-trial protocols and results publications at article, sentence, and term levels.{cite:spirit} Applying structured annotation to regulatory documents also requires determining whether a passage describes the whole device or an AI-related function."
     },
     {
       "keys": [
@@ -417,14 +719,19 @@
       "keys": [
         "fda_list"
       ],
-      "context_with_keys": "The cohort comprises the 1524 submission-level records in the FDA list accessed June 29, 2026.{cite:fda_list} The retained authorization decision dates range from September 29, 1995, to March 30, 2026. Source retrieval records are dated June 30, 2026. The historical CSV and XLSX snapshots, access metadata, SHA-256 fingerprints, and original record positions are included in the release. Submission number is the linkage key, and device name and company are descriptive attributes. Multiple authorizations for a product family remain separate records. The observation unit is therefore an authorization, with products, internal models, and clinical deployments represented only insofar as they are described in the source material. Explicit documentation of the observation unit, cohort selection, and annotation context supports the interpretation of derived datasets and text corpora.{cite:datasheets,statements}"
+      "context_with_keys": "The cohort comprises the 1524 submission-level records in the FDA list accessed June 29, 2026.{cite:fda_list} The retained authorization decision dates range from September 29, 1995, to March 30, 2026. Source retrieval records are dated June 30, 2026. The historical CSV and XLSX snapshots, access metadata, SHA-256 fingerprints, and original record positions are included in the release. Submission number is the linkage key, and device name and company are descriptive attributes. Multiple authorizations for a product family remain separate records. The observation unit is therefore an authorization, with products, internal models, and clinical deployments represented only insofar as they are described in the source material. Dataset documentation should specify the observation unit and collection procedures.{cite:datasheets} For text-derived resources, corpus selection and annotation context help users interpret the scope of the annotations.{cite:statements}"
     },
     {
       "keys": [
-        "datasheets",
+        "datasheets"
+      ],
+      "context_with_keys": "The cohort comprises the 1524 submission-level records in the FDA list accessed June 29, 2026.{cite:fda_list} The retained authorization decision dates range from September 29, 1995, to March 30, 2026. Source retrieval records are dated June 30, 2026. The historical CSV and XLSX snapshots, access metadata, SHA-256 fingerprints, and original record positions are included in the release. Submission number is the linkage key, and device name and company are descriptive attributes. Multiple authorizations for a product family remain separate records. The observation unit is therefore an authorization, with products, internal models, and clinical deployments represented only insofar as they are described in the source material. Dataset documentation should specify the observation unit and collection procedures.{cite:datasheets} For text-derived resources, corpus selection and annotation context help users interpret the scope of the annotations.{cite:statements}"
+    },
+    {
+      "keys": [
         "statements"
       ],
-      "context_with_keys": "The cohort comprises the 1524 submission-level records in the FDA list accessed June 29, 2026.{cite:fda_list} The retained authorization decision dates range from September 29, 1995, to March 30, 2026. Source retrieval records are dated June 30, 2026. The historical CSV and XLSX snapshots, access metadata, SHA-256 fingerprints, and original record positions are included in the release. Submission number is the linkage key, and device name and company are descriptive attributes. Multiple authorizations for a product family remain separate records. The observation unit is therefore an authorization, with products, internal models, and clinical deployments represented only insofar as they are described in the source material. Explicit documentation of the observation unit, cohort selection, and annotation context supports the interpretation of derived datasets and text corpora.{cite:datasheets,statements}"
+      "context_with_keys": "The cohort comprises the 1524 submission-level records in the FDA list accessed June 29, 2026.{cite:fda_list} The retained authorization decision dates range from September 29, 1995, to March 30, 2026. Source retrieval records are dated June 30, 2026. The historical CSV and XLSX snapshots, access metadata, SHA-256 fingerprints, and original record positions are included in the release. Submission number is the linkage key, and device name and company are descriptive attributes. Multiple authorizations for a product family remain separate records. The observation unit is therefore an authorization, with products, internal models, and clinical deployments represented only insofar as they are described in the source material. Dataset documentation should specify the observation unit and collection procedures.{cite:datasheets} For text-derived resources, corpus selection and annotation context help users interpret the scope of the annotations.{cite:statements}"
     },
     {
       "keys": [
@@ -448,7 +755,7 @@
       "keys": [
         "predicate"
       ],
-      "context_with_keys": "Evidence records link annotation identifiers to source-record identifiers and preserve the recorded public URL. URL-token checks identify references to the subject authorization, alternate identifiers, or another authorization. Cross-authorization references receive a separate source-association review because an earlier authorization can describe an inherited or integrated function. Published analyses of 510(k) predicate networks show why links between authorizations require examination of the functions described in each submission.{cite:predicate} The resulting relationship and caution codes are retained with the original labels."
+      "context_with_keys": "Evidence records link annotation identifiers to source-record identifiers and preserve the recorded public URL. URL-token checks identify references to the subject authorization, alternate identifiers, or another authorization. Cross-authorization references receive a separate source-association review because an earlier authorization can describe an inherited or integrated function. An analysis of 510(k) predicate networks found that AI and machine-learning tasks can change along predicate chains.{cite:predicate} The source-association review records relationship and caution codes alongside the original labels."
     },
     {
       "keys": [
@@ -466,19 +773,19 @@
       "keys": [
         "rigor"
       ],
-      "context_with_keys": "The data support descriptive reuse, source retrieval, and annotation-method development. Analyses of public descriptions should distinguish the information reported from the rigor of the underlying device evaluation.{cite:rigor} Related authorizations and shared documents create dependencies; model-development studies should assess leakage across authorizations, product families, manufacturers, and source documents.{cite:leakage} Record the dataset version, selection rules, and any subsequent source-based corrections, and cite the version used.{cite:data_citation}"
+      "context_with_keys": "The data support descriptive reuse, source retrieval, and annotation-method development. Analyses of public descriptions should distinguish the information reported from the rigor of the underlying device evaluation.{cite:rigor} Non-independent training and test observations can introduce data leakage.{cite:leakage} For this resource, model-development studies should examine dependencies among related authorizations, product families, manufacturers, and source documents. Document selection rules and any subsequent source-based corrections. Cite the dataset version used.{cite:data_citation}"
     },
     {
       "keys": [
         "leakage"
       ],
-      "context_with_keys": "The data support descriptive reuse, source retrieval, and annotation-method development. Analyses of public descriptions should distinguish the information reported from the rigor of the underlying device evaluation.{cite:rigor} Related authorizations and shared documents create dependencies; model-development studies should assess leakage across authorizations, product families, manufacturers, and source documents.{cite:leakage} Record the dataset version, selection rules, and any subsequent source-based corrections, and cite the version used.{cite:data_citation}"
+      "context_with_keys": "The data support descriptive reuse, source retrieval, and annotation-method development. Analyses of public descriptions should distinguish the information reported from the rigor of the underlying device evaluation.{cite:rigor} Non-independent training and test observations can introduce data leakage.{cite:leakage} For this resource, model-development studies should examine dependencies among related authorizations, product families, manufacturers, and source documents. Document selection rules and any subsequent source-based corrections. Cite the dataset version used.{cite:data_citation}"
     },
     {
       "keys": [
         "data_citation"
       ],
-      "context_with_keys": "The data support descriptive reuse, source retrieval, and annotation-method development. Analyses of public descriptions should distinguish the information reported from the rigor of the underlying device evaluation.{cite:rigor} Related authorizations and shared documents create dependencies; model-development studies should assess leakage across authorizations, product families, manufacturers, and source documents.{cite:leakage} Record the dataset version, selection rules, and any subsequent source-based corrections, and cite the version used.{cite:data_citation}"
+      "context_with_keys": "The data support descriptive reuse, source retrieval, and annotation-method development. Analyses of public descriptions should distinguish the information reported from the rigor of the underlying device evaluation.{cite:rigor} Non-independent training and test observations can introduce data leakage.{cite:leakage} For this resource, model-development studies should examine dependencies among related authorizations, product families, manufacturers, and source documents. Document selection rules and any subsequent source-based corrections. Cite the dataset version used.{cite:data_citation}"
     },
     {
       "keys": [
@@ -490,35 +797,35 @@
       "keys": [
         "wilson"
       ],
-      "context_with_keys": "The assembly, validation, source-download, and retrieval scripts are available at https://github.com/wang177777/fda-ai-clinical-function-annotations/tree/v1.3.0/scripts under the MIT license. Data reconstruction and validation use Python 3.10 or later and the standard library. The repository documents how to download the source archives, reproduce the derived tables, and repeat the evidence-location checks. Figure-generation code and its rendering dependencies are provided in `figure_generation/`. The repository brings the code, data documentation, license information, and validation commands together using practices described for reusable scientific computing.{cite:wilson}"
+      "context_with_keys": "The assembly, validation, source-download, and retrieval scripts are available at https://github.com/wang177777/fda-ai-clinical-function-annotations/tree/v1.3.0/scripts under the MIT license. Data reconstruction and validation use Python 3.10 or later and the standard library. The repository documents how to download the source archives, reproduce the derived tables, and repeat the evidence-location checks. Figure-generation code and its rendering dependencies are provided in `figure_generation/`. The README, citation metadata, and license files provide documentation and attribution information recommended for reusable scientific computing.{cite:wilson}"
     },
     {
       "keys": [
         "k150817"
       ],
-      "context_with_keys": "The examples illustrate attribution, output-category, and function-grouping decisions in the versioned release. Sources, in row order: the Dario 510(k) summary,{cite:k150817} Arterys MICA 510(k) summary,{cite:k182034} BlueStar 510(k) summary,{cite:k190013} and FluChip-8G FDA decision summary.{cite:k182513} Page numbers count physical PDF pages from one."
+      "context_with_keys": "| Authorization | FDA-hosted source; physical pages | Retained coding | Interpretation |\n| --- | --- | --- | --- |\n| K150817, Dario Blood Glucose Monitoring System | K150817.pdf{cite:k150817}; 5–6 | First five fields: NOT_ASSESSABLE; grouping: UNCERTAIN | The source describes glucose measurement using an internal algorithm. AI attribution remains unresolved under the study rules. |\n| K182034, Arterys MICA | K182034.pdf{cite:k182034}; 5–7 | Output: MEASUREMENT_OR_QUANTIFICATION; SEGMENTATION_OR_LOCALIZATION. Grouping: MULTIPLE. | Segmentation and user-editable landmarks and contours support the additional output category. Cardiac and oncology modules retain distinct clinical-function grouping. |\n| K190013, WellDoc BlueStar | K190013.pdf{cite:k190013}; 4, 6, 10 | Scope: AI attribution unresolved. First five fields: NOT_ASSESSABLE. Grouping: UNCERTAIN. | Coaching and prescription-based dose calculation are described at device level. Confirmed coding retains unresolved function-specific AI attribution; earlier device-level labels remain in the version records. |\n| K182513, FluChip-8G Influenza A+B Assay | reviews/K182513.pdf{cite:k182513}; 8–9 | Input: LAB_SPECIMEN_OR_OMICS; output: CLASSIFICATION_OR_DIAGNOSIS; grouping: SINGLE | Internal neural networks contribute to one integrated influenza-classification function. |"
     },
     {
       "keys": [
         "k182034"
       ],
-      "context_with_keys": "The examples illustrate attribution, output-category, and function-grouping decisions in the versioned release. Sources, in row order: the Dario 510(k) summary,{cite:k150817} Arterys MICA 510(k) summary,{cite:k182034} BlueStar 510(k) summary,{cite:k190013} and FluChip-8G FDA decision summary.{cite:k182513} Page numbers count physical PDF pages from one."
+      "context_with_keys": "| Authorization | FDA-hosted source; physical pages | Retained coding | Interpretation |\n| --- | --- | --- | --- |\n| K150817, Dario Blood Glucose Monitoring System | K150817.pdf{cite:k150817}; 5–6 | First five fields: NOT_ASSESSABLE; grouping: UNCERTAIN | The source describes glucose measurement using an internal algorithm. AI attribution remains unresolved under the study rules. |\n| K182034, Arterys MICA | K182034.pdf{cite:k182034}; 5–7 | Output: MEASUREMENT_OR_QUANTIFICATION; SEGMENTATION_OR_LOCALIZATION. Grouping: MULTIPLE. | Segmentation and user-editable landmarks and contours support the additional output category. Cardiac and oncology modules retain distinct clinical-function grouping. |\n| K190013, WellDoc BlueStar | K190013.pdf{cite:k190013}; 4, 6, 10 | Scope: AI attribution unresolved. First five fields: NOT_ASSESSABLE. Grouping: UNCERTAIN. | Coaching and prescription-based dose calculation are described at device level. Confirmed coding retains unresolved function-specific AI attribution; earlier device-level labels remain in the version records. |\n| K182513, FluChip-8G Influenza A+B Assay | reviews/K182513.pdf{cite:k182513}; 8–9 | Input: LAB_SPECIMEN_OR_OMICS; output: CLASSIFICATION_OR_DIAGNOSIS; grouping: SINGLE | Internal neural networks contribute to one integrated influenza-classification function. |"
     },
     {
       "keys": [
         "k190013"
       ],
-      "context_with_keys": "The examples illustrate attribution, output-category, and function-grouping decisions in the versioned release. Sources, in row order: the Dario 510(k) summary,{cite:k150817} Arterys MICA 510(k) summary,{cite:k182034} BlueStar 510(k) summary,{cite:k190013} and FluChip-8G FDA decision summary.{cite:k182513} Page numbers count physical PDF pages from one."
+      "context_with_keys": "| Authorization | FDA-hosted source; physical pages | Retained coding | Interpretation |\n| --- | --- | --- | --- |\n| K150817, Dario Blood Glucose Monitoring System | K150817.pdf{cite:k150817}; 5–6 | First five fields: NOT_ASSESSABLE; grouping: UNCERTAIN | The source describes glucose measurement using an internal algorithm. AI attribution remains unresolved under the study rules. |\n| K182034, Arterys MICA | K182034.pdf{cite:k182034}; 5–7 | Output: MEASUREMENT_OR_QUANTIFICATION; SEGMENTATION_OR_LOCALIZATION. Grouping: MULTIPLE. | Segmentation and user-editable landmarks and contours support the additional output category. Cardiac and oncology modules retain distinct clinical-function grouping. |\n| K190013, WellDoc BlueStar | K190013.pdf{cite:k190013}; 4, 6, 10 | Scope: AI attribution unresolved. First five fields: NOT_ASSESSABLE. Grouping: UNCERTAIN. | Coaching and prescription-based dose calculation are described at device level. Confirmed coding retains unresolved function-specific AI attribution; earlier device-level labels remain in the version records. |\n| K182513, FluChip-8G Influenza A+B Assay | reviews/K182513.pdf{cite:k182513}; 8–9 | Input: LAB_SPECIMEN_OR_OMICS; output: CLASSIFICATION_OR_DIAGNOSIS; grouping: SINGLE | Internal neural networks contribute to one integrated influenza-classification function. |"
     },
     {
       "keys": [
         "k182513"
       ],
-      "context_with_keys": "The examples illustrate attribution, output-category, and function-grouping decisions in the versioned release. Sources, in row order: the Dario 510(k) summary,{cite:k150817} Arterys MICA 510(k) summary,{cite:k182034} BlueStar 510(k) summary,{cite:k190013} and FluChip-8G FDA decision summary.{cite:k182513} Page numbers count physical PDF pages from one."
+      "context_with_keys": "| Authorization | FDA-hosted source; physical pages | Retained coding | Interpretation |\n| --- | --- | --- | --- |\n| K150817, Dario Blood Glucose Monitoring System | K150817.pdf{cite:k150817}; 5–6 | First five fields: NOT_ASSESSABLE; grouping: UNCERTAIN | The source describes glucose measurement using an internal algorithm. AI attribution remains unresolved under the study rules. |\n| K182034, Arterys MICA | K182034.pdf{cite:k182034}; 5–7 | Output: MEASUREMENT_OR_QUANTIFICATION; SEGMENTATION_OR_LOCALIZATION. Grouping: MULTIPLE. | Segmentation and user-editable landmarks and contours support the additional output category. Cardiac and oncology modules retain distinct clinical-function grouping. |\n| K190013, WellDoc BlueStar | K190013.pdf{cite:k190013}; 4, 6, 10 | Scope: AI attribution unresolved. First five fields: NOT_ASSESSABLE. Grouping: UNCERTAIN. | Coaching and prescription-based dose calculation are described at device level. Confirmed coding retains unresolved function-specific AI attribution; earlier device-level labels remain in the version records. |\n| K182513, FluChip-8G Influenza A+B Assay | reviews/K182513.pdf{cite:k182513}; 8–9 | Input: LAB_SPECIMEN_OR_OMICS; output: CLASSIFICATION_OR_DIAGNOSIS; grouping: SINGLE | Internal neural networks contribute to one integrated influenza-classification function. |"
     }
   ],
-  "numbering_rule": "First appearance in manuscript text, followed by tables; author affiliation numbers are excluded.",
-  "revision_scope": "Introduction redundancy and citation-density editing; references renumbered throughout. Cohort provenance moved to Methods without changing its wording.",
+  "numbering_rule": "First citation in the manuscript body, including Methods, followed by the numbered source references in the tables. Author affiliations are excluded.",
+  "revision_scope": "Full-manuscript claim-to-source audit, single-source citation placement, and table-source attribution; 31 references retained.",
   "removed_references": [
     {
       "number": 15,
@@ -564,5 +871,6 @@
       "verification_source": "resource_reference_candidates.json:R07_FAIRSHARING",
       "removal_reason": "The paragraph does not discuss the standards/repositories/policies relationship specific to FAIRsharing; FAIR supplies the stated reuse rationale."
     }
-  ]
+  ],
+  "full_primary_source_audit_date": "2026-09-09"
 }
