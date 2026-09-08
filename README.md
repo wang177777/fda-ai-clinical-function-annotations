@@ -122,4 +122,6 @@ The source archives distribute retained FDA captures, source extracts, annotatio
 
 ## Manuscript and figures
 
+The current manuscript revision [manuscript-2026-09-08-r2](https://github.com/wang177777/fda-ai-clinical-function-annotations/releases/tag/manuscript-2026-09-08-r2) contains 35 references with updated background and source citations. The 15 data tables remain identical to dataset v1.3.0. See the [reference revision note and same-format comparison](docs/reference_revision_2026-09-08.md).
+
 The versioned Data Descriptor, three editable tables, and both figures are in [manuscript/](manuscript/). [Figure-generation code](figure_generation/README.md) reproduces the diagrams from the released tables. Use `python3 scripts/rebuild_data.py` to reconstruct all 15 CSV tables in a temporary directory and compare their bytes with this version.
